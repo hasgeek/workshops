@@ -1,0 +1,255 @@
+/* ==========================================================================
+    styles for body  
+    ========================================================================== */
+    body{
+     font-size:20px; font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+     background: url("../img/fences.png") repeat-x  left bottom #d4e5f5;
+     line-height: 1.2;
+     color:#333;
+   }
+/* ==========================================================================
+    styles for Ribbon in header
+    ========================================================================== */
+    .ribbon {
+      text-align: center;
+      background: #eee;
+      border-left: 1px dashed #aaa;
+      border-right: 1px dashed #aaa;
+      border-radius: 5px 5px 0 0;
+      box-shadow: 5px 0 0 #eee,
+      -5px 0 0 #eee;
+      height: 120px;
+      margin: 0 5px;
+      position: absolute;
+      width: 90px;
+      -webkit-filter: drop-shadow(0 2px 5px hsla(0,0%,0%,.5));
+    }
+    .ribbon:after,
+    .ribbon:before {
+      border-top: 15px solid #eee;
+      content: '';
+      height: 0;
+      position: absolute;
+      top: 100%;
+      width: 0;
+    }
+    .ribbon:after {
+      border-left: 50px solid transparent;
+      right: -6px;
+    }
+    .ribbon:before {
+      border-right: 50px solid transparent;
+      left: -6px;
+    }
+    .ribbon img{width: 75px;
+      margin-top: 25px;}
+/* ==========================================================================
+    styles for Header  
+    ========================================================================== */
+
+    header{margin-bottom: 40px; background: url("../img/banner.png");
+    background-position: top center; height:500px;}
+
+    h1
+    {font-size: 30px;
+      text-align: center;
+      line-height: 2;
+      color: #0655a0;
+      margin-bottom: 35px;
+      line-height: 40px;
+      margin-top: 35px;font: 400 35px/1.2 'Sansita one', Georgia, serif
+
+    }
+
+   /* ==========================================================================
+    styles for Course-content div  
+    ========================================================================== */
+    .course-content{padding: 5%;}
+    .course-content p {padding-bottom: 45px;}
+    .course-content h3{
+      font-size: 18px;
+      border-bottom: 3px solid rgb(188, 190, 192);
+      color: rgb(20, 118, 209); }
+      .course-content > ul > li {line-height: 27px;
+        font-size: 20px;
+        color: #12589e;
+        margin-bottom: 24px;
+        font-weight: bold; }
+        .course-content ul ul { margin-top: 14px;color: #666;}
+        .course-content ul ul > li { margin-bottom: 16px;font-weight:normal;}
+        .bigdata{text-align: center;padding-bottom: 50px;}
+        .bigdata a{text-decoration: none;}
+
+    /* ==========================================================================
+    styles for Speaker div  
+    ========================================================================== */
+    .speaker{padding: 25px;}
+    .speaker img{margin-left: 30px;}
+    .polaroid {
+      position: relative;
+      width: 70%;
+
+      margin-bottom: 20px; margin-top: 15px;}
+      .polaroid img {
+        border: 10px solid #fff;
+        border-bottom: 45px solid #fff;
+        -webkit-box-shadow: 3px 3px 3px #777;
+        -moz-box-shadow: 3px 3px 3px #777;
+        box-shadow: 3px 3px 3px #777;
+        -webkit-transform: rotate(358deg);
+        -moz-transform: rotate(358deg);
+        -ms-transform: rotate(358deg);
+        -o-transform: rotate(358deg);
+        transform: rotate(358deg);
+        -webkit-box-shadow: rgba(11,44,61,0.5) 0 0 20px;
+        -moz-box-shadow: rgba(11,44,61,0.5) 0 0 20px;
+        box-shadow: rgba(11,44,61,0.5) 0 0 20px;}
+        .polaroid img:hover {-webkit-filter: contrast(150%);} 
+        .polaroid p {
+          position: absolute;
+          text-align: center;
+          width: 100%;
+          bottom: 0px;
+          font: 400 18px/1 'Kaushan Script', cursive;
+          color: rgb(0, 0, 0);
+          padding-left:40px;}
+         .speaker a {text-decoration: none;}
+    .preview-video{padding: 5%}
+
+/* ==========================================================================
+    styles for When , Where and How-much divs
+    ========================================================================== */
+    #calendar-links{margin-top: 20px; margin-left: 30px;}
+    #calendar-links li{ margin-bottom: 11px;}
+    .place-of-event,.date-of-event,.price-of-event{min-height: 265px;padding: 20px;}
+    .fix-pos{margin-top:35px;}
+    .when {background:transparent url(../img/clock_alarm.png) no-repeat;background-position: bottom right}
+    .where {background:transparent url(http://www.google.com/events/io/2011/static/img/map-icon.png) no-repeat bottom right;}
+    .money {background:transparent url(../img/money_bag_yen.png) no-repeat; background-position: bottom right}
+
+
+/* ==========================================================================
+    styles for About Hasgeek Div
+    ========================================================================== */
+    .about-hasgeek{padding: 25px;}
+
+    .about-hasgeek img {margin-bottom: 20px;-webkit-transition-duration: 0.8s;
+      -moz-transition-duration: 0.8s;
+      -o-transition-duration: 0.8s;
+      transition-duration: 0.8s;
+      -webkit-transition-property: -webkit-transform;
+      -moz-transition-property: -moz-transform;
+      -o-transition-property: -o-transform;
+      transition-property: transform;overflow:hidden;}
+
+      .about-hasgeek img:hover { -webkit-transform:rotate(360deg);
+        -moz-transform:rotate(360deg); 
+        -o-transform:rotate(360deg);}
+
+        .hasgeek-logo{width:50%;}
+
+/* ==========================================================================
+    styles for Footer
+    ========================================================================== */
+    footer{
+      padding-bottom: 130px;}
+      footer .credit{
+        text-align: center;
+color: rgb(50, 0, 139);
+text-shadow: 0 1px 0 rgb(71, 55, 192);
+font-size: 18px;}
+footer .credit a{text-decoration: none;}
+
+/* ==========================================================================
+    styles for Common  
+    ========================================================================== */
+
+    .top-buffer { margin-top:25px;}
+    .bottom-buffer {margin-bottom: 80px;}
+    .btn-large {font-size: 23.5px}
+    .bg-color{background:rgb(230, 238, 238);}
+    .box-style h2
+    {
+      color: #12589e;
+      font: 400 30px/1.2 'Sansita one', Georgia, serif;
+      letter-spacing: 1.2px;
+      /*text-shadow: 3px 3px rgb(255, 255, 255);*/
+      padding-left: 10px;padding-top: 5px
+    }
+    h3{
+      font-size: 20px;
+      color: rgb(168, 82, 48);}
+/*==================================================
+ * Effect 2
+ * ===============================================*/
+ .effect2
+ {
+  position: relative;
+  margin-bottom: 20px;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+/*==================================================
+ * Media Queries
+ * ===============================================*/
+
+ @media only screen and (max-device-width: 480px) {
+            body {font-size:16px !important;}
+
+         
+            header img {margin-left:13%;}
+            header h1{font-size: 20px !important; };
+            h1 {font-size: 25px}
+            .ribbon{visibility: hidden;}
+            .course-content h3{font-size: 16px !important;}
+            .box-style h2 {font-size: 25px !important}
+            
+            .ribbon {height: 79px;width: 55px;}
+            .ribbon img {width: 75%;margin-top: 45%;}
+            iframe{height:auto;}
+            .course-content > ul > li {font-weight:normal;}
+            .place-of-event,.date-of-event,.price-of-event{
+              height: auto;
+            }
+}
+@media (max-width: 767px){
+  header{ height:90px;background: url("../img/hasgeek-presents.png") no-repeat; 
+                    text-align: center; margin-left: 15px;margin-top: 35px;}
+                    .ribbon{display:none;}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .place-of-event,.date-of-event,.price-of-event{
+              min-height: 360px;}
+              .place-of-event a {margin-top: 75px;}
+              .polaroid {margin-left: -20px;}
+            }
