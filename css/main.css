@@ -52,8 +52,6 @@ body{
 ========================================================================== */
 header{
   margin-bottom: 20px;
-  /*background: url("../img/banner.png");
-  background-position: top center;*/
   height: 500px;
 }
 #caption{
@@ -169,22 +167,25 @@ address{
 }
 .place-of-event, .date-of-event, .price-of-event{
   min-height: 220px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 5px;
+}
+.price-of-event p{
+  padding-right: 50px;
 }
 .fix-pos{
   margin-top: 15px;
 }
 .when{
-  background: transparent url(../img/clock_alarm.png) no-repeat;
+  background: transparent url('../img/clock_alarm.png') no-repeat;
   background-position: bottom right;
 }
 .where{
-  background: transparent url(http://www.google.com/events/io/2011/static/img/map-icon.png) no-repeat bottom right;
+  background: transparent url('http://www.google.com/events/io/2011/static/img/map-icon.png') no-repeat bottom right;
 }
 .money {
-  background:transparent url(../img/money_bag_yen.png) no-repeat;
+  background:transparent url('../img/money_bag_yen.png') no-repeat;
   background-position: bottom right;
 }
 
@@ -210,6 +211,7 @@ address{
   -webkit-transform:rotate(360deg);
   -moz-transform:rotate(360deg); 
   -o-transform:rotate(360deg);
+  transform:rotate(360deg);
 }
 .hasgeek-logo{
   width:50%;
@@ -233,10 +235,11 @@ footer{
   line-height: 12px;
   background-color: #005A52;
   background-image: -moz-linear-gradient(top,#065F57,#4B711E);
-  /*background-image: -moz-linear-gradient(top,#96AE8C,#5E7D31);
-  opacity: 0.8;
-  background-image: url('../img/grass.png');
-  background-position: 50% 50%;*/
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#065F57),to(#4B711E));
+  background-image: -webkit-linear-gradient(top,#065F57,#4B711E);
+  background-image: -o-linear-gradient(top,#065F57,#4B711E);
+  background-image: linear-gradient(to bottom,#065F57,#4B711E);
+  background-repeat: repeat-x;
 }
 #copyright{
   text-align: left;
@@ -414,10 +417,12 @@ h3{
 
 @media (min-width: 768px) and (max-width: 979px){
   .place-of-event, .date-of-event, .price-of-event{
-    min-height: 300px;
+    min-height: 265px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .place-of-event a{
-    margin-top: 75px;
+    margin-top: 65px;
   }
   .polaroid{
     margin-left: -20px;
@@ -451,6 +456,9 @@ h3{
   #speaker-name{
     margin-left: -18px;
   }
+  .price-of-event p{
+    padding-right: 3px;
+  }
 }
 @media (min-width: 980px) and (max-width: 1200px){
   header{
@@ -473,5 +481,14 @@ h3{
   #caption{
     margin-bottom: 20px;
     font-size: 28px;
+  }
+  .place-of-event, .date-of-event, .price-of-event{
+    min-height: 220px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+  }
+  .price-of-event p{
+    padding-right: 0px;
   }
 }
