@@ -83,12 +83,10 @@ header{
   list-style-type: square;
   margin-bottom: 8px;
 }
-.course-content ul ul{
-  color: #666;
-}
 .course-content ul ul > li{
   font-weight: normal;
   line-height: 25px;
+  color: #000;
 }
 .bigdata{
   text-align: center;
