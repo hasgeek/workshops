@@ -154,11 +154,11 @@ header{
 ========================================================================== */
 #calendar-links{
   margin-top: 20px;
-  margin-left: 30px;
 }
 #calendar-links li{
   margin-bottom: 5px;
   list-style-type: square;
+  margin-left: 15px;
 }
 address{
   margin-bottom: 0px;
