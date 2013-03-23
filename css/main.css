@@ -6,8 +6,8 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   font-family: 'Arimo', 'Open Sans', serif;
   font-weight: 400;
-  background-color: #D3E5F9;
-  line-height: 20px;
+  background-color: #D3E4F9;
+  line-height: 23px;
   color:#333;
 }
 /* ==========================================================================
@@ -21,7 +21,7 @@ body{
   border-radius: 5px 5px 0 0;
   box-shadow: 5px 0 0 #eee, -5px 0 0 #eee;
   height: 120px;
-  margin: -500px 5px;
+  margin: -504px 5px;
   position: absolute;
   width: 90px;
   -webkit-filter: drop-shadow(0 2px 5px hsla(0,0%,0%,.5));
@@ -46,7 +46,22 @@ body{
   width: 75px;
   margin-top: 25px;
 }
-
+#ribbon-3d-effect{
+  width: 102px;
+  height: 10px;
+  margin-top: -504px;
+  background-color: #eee;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+  background-image: -moz-linear-gradient(top,#999999,#EEEEEE);
+  background-image: -moz-linear-gradient(top,#999999,#EEEEEE);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#999999),to(#EEEEEE));
+  background-image: -webkit-linear-gradient(top,#999999,#EEEEEE);
+  background-image: -o-linear-gradient(top,#999999,#EEEEEE);
+  background-image: linear-gradient(to bottom,#999999,#EEEEEE);
+  opacity: 0.3;
+  z-index: 2;
+}
 /* ==========================================================================
   styles for Header  
 ========================================================================== */
@@ -59,8 +74,12 @@ header{
   font-weight: 700;
   text-align: center;
   margin-bottom: 35px;
+  margin-top: 35px;
   line-height: 40px;
   font-family: 'Rufina', Georgia, sans-serif;
+}
+.masthead{
+  border-bottom: 4px solid #005C52;
 }
 /* ==========================================================================
   styles for Course-content div  
@@ -85,14 +104,14 @@ header{
 }
 .course-content ul ul > li{
   font-weight: normal;
-  line-height: 25px;
   color: #000;
+  line-height: 23px;
 }
 .bigdata{
   text-align: center;
   padding-bottom: 30px;
   font-size: 19px;
-  line-height: 25px;
+  line-height: 27px;
 }
 .bigdata a{
   text-decoration: none;
@@ -100,23 +119,26 @@ header{
 /* ==========================================================================
   styles for Speaker div  
 ========================================================================== */
+
 .speaker{
   padding: 25px;
 }
-.speaker img{
-  margin-left: 30px;
+.polaroid{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 #speaker-name{
   font-weight: bold;
-  color: #882B00;
 }
 .polaroid{
   position: relative;
   width: 70%;
   margin-bottom: 20px; 
-  margin-top: 15px;
+  margin-top: 8px;
 }
 .polaroid img{
+  width: 180px;
   border: 10px solid #fff;
   border-bottom: 45px solid #fff;
   -webkit-box-shadow: 3px 3px 3px #777;
@@ -131,16 +153,12 @@ header{
   -moz-box-shadow: rgba(11,44,61,0.5) 0 0 20px;
   box-shadow: rgba(11,44,61,0.5) 0 0 20px;
 }
-.polaroid img:hover{
-  -webkit-filter: contrast(150%);
-} 
 .polaroid p{
   position: absolute;
   text-align: center;
   width: 100%;
   bottom: 0px;
   color: rgb(0, 0, 0);
-  padding-left:40px;
 }
 .speaker a{
   text-decoration: none;
@@ -152,19 +170,21 @@ header{
 /* ==========================================================================
   styles for When , Where and How-much divs
 ========================================================================== */
-#calendar-links{
-  margin-top: 20px;
+.date-of-event h4{
+  margin-bottom: 15px;
+  color: #666;
 }
 #calendar-links li{
-  margin-bottom: 5px;
   list-style-type: square;
   margin-left: 15px;
+  line-height: 23px;
 }
 address{
-  margin-bottom: 0px;
+  margin-bottom: 10px;
+  line-height: 23px;
 }
 .place-of-event, .date-of-event, .price-of-event{
-  min-height: 220px;
+  min-height: 225px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 5px;
@@ -173,19 +193,9 @@ address{
   padding-right: 50px;
 }
 .fix-pos{
-  margin-top: 15px;
+  margin-top: 8px;
 }
-.when{
-  background: transparent url('../img/clock_alarm.png') no-repeat;
-  background-position: bottom right;
-}
-.where{
-  background: transparent url('http://www.google.com/events/io/2011/static/img/map-icon.png') no-repeat bottom right;
-}
-.money {
-  background:transparent url('../img/money_bag_yen.png') no-repeat;
-  background-position: bottom right;
-}
+
 
 /* ==========================================================================
   styles for About Hasgeek Div
@@ -195,48 +205,30 @@ address{
 }
 .about-hasgeek img{
   margin-bottom: 20px;
-  -webkit-transition-duration: 0.8s;
-  -moz-transition-duration: 0.8s;
-  -o-transition-duration: 0.8s;
-  transition-duration: 0.8s;
-  -webkit-transition-property: -webkit-transform;
-  -moz-transition-property: -moz-transform;
-  -o-transition-property: -o-transform;
-  transition-property: transform;
   overflow: hidden;
+  width: 100px;
+  height: auto;
 }
-.about-hasgeek img:hover{
-  -webkit-transform:rotate(360deg);
-  -moz-transform:rotate(360deg); 
-  -o-transform:rotate(360deg);
-  transform:rotate(360deg);
-}
-.hasgeek-logo{
-  width:50%;
-}
+
 
 /* ==========================================================================
   styles for Footer
 ========================================================================== */
 #press-footer{
-  background-image: url('../img/grass.png');
+  background-image: url('../img/fence.jpg');
   width: 100%;
-  height: 58px;
+  height: 80px;
+  margin-top: 10px;
 }
 footer{
-  padding-bottom: 5px;
-  padding-top: 4px;
+  padding-bottom: 12px;
+  padding-top: 8px;
   margin-bottom: -5px;
   text-align: center;
-  color: #D3E5F9;
-  font-size: 12px;
+  color: #065F57;
+  font-size: 13px;
   line-height: 12px;
-  background-color: #005A52;
-  background-image: -moz-linear-gradient(top,#065F57,#4B711E);
-  background-image: -webkit-gradient(linear,0 0,0 100%,from(#065F57),to(#4B711E));
-  background-image: -webkit-linear-gradient(top,#065F57,#4B711E);
-  background-image: -o-linear-gradient(top,#065F57,#4B711E);
-  background-image: linear-gradient(to bottom,#065F57,#4B711E);
+  background-color: #45C73D;
   background-repeat: repeat-x;
 }
 #copyright{
@@ -262,6 +254,7 @@ footer{
 .bg-color{
   background:rgb(230, 238, 238);
 }
+
 .box-style h2{
   color: #12589e;
   /*text-shadow: 3px 3px rgb(255, 255, 255);*/
@@ -271,9 +264,14 @@ footer{
 }
 h3{
   font-size: 20px;
-  color: #882B00;
+  color: #000;
 }
-
+h2 span{
+  padding-top: 6px;
+}
+h2{
+  margin-bottom: 5px;
+}
 #caption, .box-style h2, .course-content > ul > li{
   color: #065F57;
 }
@@ -384,46 +382,44 @@ h3{
 
 @media (max-width: 767px){
   header{
-    height:90px;
+    height: 90px;
     background: url("../img/hasgeek-presents.png") no-repeat; 
     text-align: center; 
     margin-left: 15px;
     margin-top: 35px;
   }
-  .masthead{
-    display: none;
-  }
-  .ribbon{
+  .ribbon, #ribbon-3d-effect, .masthead{
     display: none;
   }
   .polaroid img{
-    width: 50%;
+    width: 40%;
     height: auto;
   }
-  .hasgeek-logo{
-    width: 80px;
+  .about-hasgeek img{
+    margin-bottom: 10px;
+    width: 50px;
     height: auto;
-  }
-  #speaker-name{
-    margin-left: -25%;
   }
   #credits, #copyright{
     text-align: center;
     padding: 3px;
   }
+  #press-footer{
+    margin: 0;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 979px){
   .place-of-event, .date-of-event, .price-of-event{
-    min-height: 265px;
+    min-height: 240px;
     padding-left: 15px;
     padding-right: 15px;
   }
   .place-of-event a{
-    margin-top: 65px;
+    margin-top: 10px;
   }
-  .polaroid{
-    margin-left: -20px;
+  .fix-pos{
+    margin-top: 5px;
   }
   header{
     height: 300px;
@@ -432,13 +428,25 @@ h3{
     font-size: 25px;
     margin-bottom: 20px;
   }
+  .box-style h2{
+    font-size: 24px;
+  }
+  h3{
+    font-size: 18px;
+    line-height: 28px;
+  }
   .sidebar{
-    font-size: 13px;
+    font-size: 15px;
+    line-height: 18px;
   }
   .ribbon{
-    margin-top: -310px;
+    margin-top: -313px;
   }
-  .hasgeek-logo{
+  #ribbon-3d-effect{
+    margin-top: -313px;
+  }
+  .about-hasgeek img{
+    margin-bottom: 10px;
     width: 50px;
     height: auto;
   }
@@ -446,16 +454,13 @@ h3{
     width: 100px;
     height: auto;
     border-width: 5px;
-    border-bottom-width: 30px
+    border-bottom-width: 30px;
   }
   .polaroid{
-    margin-top: 5px;
-  }
-  #speaker-name{
-    margin-left: -18px;
+    margin-top: 0px;
   }
   .price-of-event p{
-    padding-right: 3px;
+    padding-right: 0px;
   }
 }
 @media (min-width: 980px) and (max-width: 1200px){
@@ -463,30 +468,39 @@ h3{
     height: 390px;
   }
   .ribbon{
-    margin-top: -405px;
+    margin-top: -406px;
   }
-  .hasgeek-logo{
-    width: 80px;
+  #ribbon-3d-effect{
+    margin-top: -406px;
+  }
+  .about-hasgeek img{
+    margin-bottom: 10px;
+    width: 60px;
     height: auto;
   }
   .polaroid img{
-    width: 150px;
+    width: 120px;
     height: auto;
+    border-width: 7px;
+    border-bottom-width: 35px;
   }
-  #speaker-name{
-    margin-left: -10px;
+  .speaker-name{
+    vertical-align: 33px;
   }
   #caption{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-size: 28px;
   }
   .place-of-event, .date-of-event, .price-of-event{
     min-height: 220px;
-    padding-left: 15px;
+    padding-left: 18px;
     padding-right: 15px;
     padding-top: 5px;
   }
   .price-of-event p{
     padding-right: 0px;
+  }
+  .sidebar{
+    line-height: 21px;
   }
 }
