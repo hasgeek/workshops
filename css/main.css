@@ -85,7 +85,7 @@ header{
   styles for Course-content div  
 ========================================================================== */
 .course-content{
-  padding: 5%;
+  padding: 25px;
 }
 .course-content p{
   padding-bottom: 45px;
@@ -98,9 +98,9 @@ header{
 .course-content > ul > li {
   color: #12589e;
   font-weight: bold;
-  line-height: 35px;
+  line-height: 28px;
   list-style-type: square;
-  margin-bottom: 8px;
+  margin-bottom: 3px;
 }
 .course-content ul ul > li{
   font-weight: normal;
@@ -115,6 +115,16 @@ header{
 }
 .bigdata a{
   text-decoration: none;
+}
+/* ==========================================================================
+  styles for participation-criteria div  
+========================================================================== */
+.participation-criteria{
+  padding: 25px;
+}
+.participation-criteria li{
+  line-height: 23px;
+  list-style-type: square;
 }
 /* ==========================================================================
   styles for Speaker div  
@@ -134,11 +144,11 @@ header{
 .polaroid{
   position: relative;
   width: 70%;
-  margin-bottom: 20px; 
-  margin-top: 8px;
+  margin-bottom: 38px; 
+  margin-top: 15px;
 }
 .polaroid img{
-  width: 180px;
+  width: 200px;
   border: 10px solid #fff;
   border-bottom: 45px solid #fff;
   -webkit-box-shadow: 3px 3px 3px #777;
@@ -206,7 +216,7 @@ address{
 .about-hasgeek img{
   margin-bottom: 20px;
   overflow: hidden;
-  width: 100px;
+  width: 150px;
   height: auto;
 }
 
@@ -340,43 +350,9 @@ h2{
  * Media Queries
  * ===============================================*/
 @media only screen and (max-device-width: 480px){
-  body{
-    font-size:16px !important;
-  }
-  header img{
-    margin-left: 13%;
-  }
-  header h1{
-    font-size: 20px !important;
-  }
-  h1 {
-    font-size: 25px;
-  }
-  .ribbon{
-    visibility: hidden;
-  }
-  .course-content h3{
-    font-size: 16px !important;
-  }
-  .box-style h2{
-    font-size: 25px !important;
-  }
-  .ribbon{
-    height: 79px;
-    width: 55px;
-  }
-  .ribbon img{
-    width: 75%;
-    margin-top: 45%;
-  }
-  iframe{
-    height: auto;
-  }
-  .course-content > ul > li{
-    font-weight: normal;
-  }
   .place-of-event, .date-of-event, .price-of-event{
     height: auto;
+    padding-bottom: 10px;
   }
 }
 
@@ -392,20 +368,23 @@ h2{
     display: none;
   }
   .polaroid img{
-    width: 40%;
+    width: 60%;
     height: auto;
   }
   .about-hasgeek img{
     margin-bottom: 10px;
-    width: 50px;
+    width: 60px;
     height: auto;
   }
   #credits, #copyright{
     text-align: center;
-    padding: 3px;
+    padding: 5px;
   }
   #press-footer{
     margin: 0;
+  }
+  .fix-pos{
+    margin-bottom: 10px;
   }
 }
 
@@ -436,8 +415,8 @@ h2{
     line-height: 28px;
   }
   .sidebar{
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 19px;
   }
   .ribbon{
     margin-top: -313px;
@@ -475,11 +454,11 @@ h2{
   }
   .about-hasgeek img{
     margin-bottom: 10px;
-    width: 60px;
+    width: 100px;
     height: auto;
   }
   .polaroid img{
-    width: 120px;
+    width: 180px;
     height: auto;
     border-width: 7px;
     border-bottom-width: 35px;
