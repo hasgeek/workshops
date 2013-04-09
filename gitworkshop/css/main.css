@@ -223,6 +223,7 @@ span.pointer{
 #pointer2{
 	top: 50px;
 	left: 170px;
+	padding-right: 10px;
 	position: absolute;
 }
 #node3{
@@ -244,6 +245,7 @@ span.pointer{
 	top: 130px;
 	left: 185px;
 	position: absolute;
+	padding-right: 10px;
 }
 #node5{
 	top: 240px;
@@ -264,6 +266,7 @@ span.pointer{
 	top: 200px;
 	left: 270px;
 	position: absolute;
+	padding-right: 10px;
 }
 #node7{
 	top: 320px;
@@ -284,6 +287,7 @@ span.pointer{
 	top: 358px;
 	left: 254px;
 	position: absolute;
+	padding-right: 10px;
 }
 
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus{
