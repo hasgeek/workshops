@@ -3010,6 +3010,8 @@ body { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAA
 
 .twitter-share { float: right; margin-top: 80px; margin-right: 15px; }
 
+.media .speaker-contact a { text-decoration: none; }
+
 h2 { color: #ce621a; }
 
 header { padding: 10px; font-weight: 700; position: relative; text-align: center; overflow: hidden; }
@@ -3018,9 +3020,9 @@ header { padding: 10px; font-weight: 700; position: relative; text-align: center
 
 h2 { color: #3674a8; /* border-bottom: 2px solid #3674a8; */ padding-bottom: 5px; font-size: 26px; }
 
-ul li { line-height: 1.8em; font-size: 20px; margin-bottom: 20px; color: #4a8792; font-weight: bold; list-style-type: decimal; }
+ul li { line-height: 1.3em; font-size: 20px; margin-bottom: 20px; color: #4a8792; font-weight: bold; list-style-type: decimal; }
 
-ul li ul li { color: #666; list-style-type: disc; font-size: 18px; font-weight: normal; line-height: 1.8em; }
+ul li ul li { color: #666; list-style-type: disc; font-size: 18px; font-weight: normal; line-height: 1.5em; }
 
 .box { background-color: #3674a8; font-size: 60px; height: 108px; padding-top: 69px; }
 

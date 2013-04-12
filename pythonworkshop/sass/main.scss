@@ -111,7 +111,7 @@ color: #3674a8}
 margin-right: 15px;
 }
 
-
+.media .speaker-contact a {text-decoration:none;}
 .well-alt {
 @extend .well;
 }
@@ -135,7 +135,7 @@ font-size: 26px;
 }
 
 ul li {
-line-height: 1.8em;
+line-height: 1.3em;
 font-size: 20px;
 margin-bottom: 20px;
 color: rgb(74, 135, 146);
@@ -146,8 +146,10 @@ list-style-type: decimal;
  ul li ul li {
 color:#666;
 list-style-type: disc;
-font-size: 18px;font-weight: normal;line-height: 1.8em;
+font-size: 18px;font-weight: normal;
+line-height: 1.5em;
 }
+
 .box{background-color: #3674a8;
 font-size: 60px;
 height: 108px;
