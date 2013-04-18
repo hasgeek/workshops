@@ -19,6 +19,42 @@ hr{
 	margin-top: 10;
 	border: 0;
 }
+.btn {
+  background-color: #F08133;
+  *background-color: #F08133;
+  background-image: -moz-linear-gradient(top, #F8A265, #F08133);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F8A265), to(#F08133));
+  background-image: -webkit-linear-gradient(top, #F8A265, #F08133);
+  background-image: -o-linear-gradient(top, #F8A265, #F08133);
+  background-image: linear-gradient(to bottom, #F8A265, #F08133);
+  background-repeat: repeat-x;
+  border: 1px solid #F08133;
+  *border: 0;
+  border-color: #B4764A;
+  border-bottom-color: #B4764A;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8a265', endColorstr='#fff08133', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  color: #000;
+  background-color: #F08133;
+  *background-color: #F08133;
+}
+.btn:active,
+.btn.active {
+  background-color: #F08133 \9;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #000000;
+}
+
 .navbar{
 	display: none;
 }
