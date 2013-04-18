@@ -258,7 +258,8 @@ span.pointer{
 }
 #pointer2{
 	top: 50px;
-	left: 170px;
+	left: 165px;
+	width: 80px;
 	padding-right: 10px;
 	position: absolute;
 }
@@ -289,7 +290,7 @@ span.pointer{
 	position: absolute;
 }
 #pointer5{
-	top: 290px;
+	top: 293px;
 	left: 30px;
 	position: absolute;
 }
@@ -407,24 +408,125 @@ span.pointer{
 #ascii-logo{
 	margin-left: -10px;
 }
-.bar{
+.bars{
 	height: 1px;
-	width: 10px;
+	width: 5px;
 	background-color: #333;
 	display: block;
 }
-.deg120{
-	-moz-transform:rotate(120deg);
-	-webkit-transform:rotate(120deg);
-	-o-transform:rotate(120deg);
-	transform:rotate(120deg);
+#arrows{
+	left: 0px;
+	top: -3px;
+	position: relative;
 }
-.deg150{
-	-moz-transform:rotate(150deg);
-	-webkit-transform:rotate(150deg);
-	-o-transform:rotate(150deg);
-	transform:rotate(150deg);
+#bar-7{
+	left: 27px;
+	top: 0px;	
+	position: relative;
+	-moz-animation: blinkbar-one 1s infinite;
+	-webkit-animation: blinkbar-one 1s infinite;
+	-o-animation: blinkbar-one 1s infinite;
+	animation: blinkbar-one 1s infinite;
 }
+#bar-6{
+	left: 24px;
+	top: 3px;	
+	position: relative;
+	-moz-animation: blinkbar-one 1s infinite;
+	-webkit-animation: blinkbar-one 1s infinite;
+	-o-animation: blinkbar-one 1s infinite;
+	animation: blinkbar-one 1s infinite;
+}
+#bar-5{
+	left: 21px;
+	top: 5px;	
+	position: relative;
+	-moz-animation: blinkbar-one 1s infinite;
+	-webkit-animation: blinkbar-one 1s infinite;
+	-o-animation: blinkbar-one 1s infinite;
+	animation: blinkbar-one 1s infinite;
+}
+#bar-4{
+	left: 17px;
+	top: 7px;	
+	position: relative;
+	-moz-animation: blinkbar-two 1s infinite;
+	-webkit-animation: blinkbar-two 1s infinite;
+	-o-animation: blinkbar-two 1s infinite;
+	animation: blinkbar-two 1s infinite;
+}
+#bar-3{
+	left: 13px;
+	top: 8px;
+	position: relative;
+	-moz-animation: blinkbar-three 1s infinite;
+	-webkit-animation: blinkbar-three 1s infinite;
+	-o-animation: blinkbar-three 1s infinite;
+	animation: blinkbar-three 1s infinite;
+}
+#bar-2{
+	left: 8px;
+	top: 8px;
+	position: relative;
+	-moz-animation: blinkbar-three 1s infinite;
+	-webkit-animation: blinkbar-three 1s infinite;
+	-o-animation: blinkbar-three 1s infinite;
+	animation: blinkbar-three 1s infinite;
+}
+
+#bar-1{
+	left: 3px;
+	top: 7px;
+	position: relative;
+	-moz-animation: blinkbar-three 1s infinite;
+	-webkit-animation: blinkbar-three 1s infinite;
+	-o-animation: blinkbar-three 1s infinite;
+	animation: blinkbar-three 1s infinite;
+}
+
+.deg7{
+	-moz-transform:rotate(-60deg);
+	-webkit-transform:rotate(-60deg);
+	-o-transform:rotate(-60deg);
+	transform:rotate(-60deg);
+}
+.deg6{
+	-moz-transform:rotate(-50deg);
+	-webkit-transform:rotate(-50deg);
+	-o-transform:rotate(-50deg);
+	transform:rotate(-50deg);
+}
+.deg5{
+	-moz-transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+}
+.deg4{
+	-moz-transform:rotate(-30deg);
+	-webkit-transform:rotate(-30deg);
+	-o-transform:rotate(-30deg);
+	transform:rotate(-30deg);
+}
+.deg3{
+	-moz-transform:rotate(-20deg);
+	-webkit-transform:rotate(-20deg);
+	-o-transform:rotate(-20deg);
+	transform:rotate(-20deg);
+}
+.deg2{
+	-moz-transform:rotate(-9deg);
+	-webkit-transform:rotate(-9deg);
+	-o-transform:rotate(-9deg);
+	transform:rotate(-9deg);
+}
+.deg1{
+	-moz-transform:rotate(0deg);
+	-webkit-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	transform:rotate(0deg);
+}
+
 
 #arrow-box1{
 	top: 15px;
@@ -436,12 +538,12 @@ span.pointer{
 	transform: rotate(25deg);
 }
 #arrow-box2{
-	top: 95px;
+	top: 92px;
 	left: 156px;
 	position: absolute;
 }
 #arrow-box3{
-	top: 190px;
+	top: 180px;
 	left: -10px;
 	position: absolute;
 	-moz-transform: rotate(130deg);
@@ -456,7 +558,7 @@ span.pointer{
 }
 #arrow-box5{
 	top: 257px;
-	left: 84px;
+	left: 88px;
 	position: absolute;
 	-moz-transform: rotate(170deg);
 	-webkit-transform: rotate(170deg);
@@ -465,12 +567,12 @@ span.pointer{
 }
 #arrow-box6{
 	top: 266px;
-	left: 256px;
+	left: 252px;
 	position: absolute;
 }
 #arrow-box7{
-	top: 345px;
-	left: 85px;
+	top: 340px;
+	left: 90px;
 	position: absolute;
 	-moz-transform: rotate(160deg);
 	-webkit-transform: rotate(160deg);
@@ -479,40 +581,8 @@ span.pointer{
 }
 #arrow-box8{
 	top: 406px;
-	left: 256px;
+	left: 255px;
 	position: absolute;
-}
-#bar1{
-	left: 19px;
-	top: 0px;	
-	position: relative;
-	-moz-animation: blinkbar-one 1s infinite;
-	-webkit-animation: blinkbar-one 1s infinite;
-	-o-animation: blinkbar-one 1s infinite;
-	animation: blinkbar-one 1s infinite;
-}
-#bar2{
-	left: 12px;
-	top: 6px;	
-	position: relative;
-	-moz-animation: blinkbar-two 1s infinite;
-	-webkit-animation: blinkbar-two 1s infinite;
-	-o-animation: blinkbar-two 1s infinite;
-	animation: blinkbar-two 1s infinite;
-}
-#bar3{
-	left: 3px;
-	top: 7px;
-	position: relative;
-	-moz-animation: blinkbar-three 1s infinite;
-	-webkit-animation: blinkbar-three 1s infinite;
-	-o-animation: blinkbar-three 1s infinite;
-	animation: blinkbar-three 1s infinite;
-}
-#arrow{
-	left: 0px;
-	top: -4px;
-	position: relative;
 }
 .icon-angle-left{
 	-moz-animation: blinkarrow 1s infinite;
@@ -557,10 +627,12 @@ span.pointer{
 
 @-webkit-keyframes blinkbar-one{
 	0%   {background: #999;}
-	20%  {background: #999;}
-	40%  {background: #333;}
-	60%  {background: #333;}
-	80%  {background: #333;}
+	14%  {background: #999;}
+	29%  {background: #333;}
+	43%  {background: #333;}
+	57%  {background: #333;}
+	71% {background: #333;}
+	86%  {background: #333;}
 	100% {background: #333;}
 }
 @-webkit-keyframes blinkbar-two{
