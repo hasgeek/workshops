@@ -3051,6 +3051,8 @@ footer { background: white; font-size: 16px; padding-top: 45px; }
 
 .btn-sample:hover, .btn-sample:active, .btn-sample.active, .btn-sample.disabled, .btn-sample[disabled] { color: #FFFFFF; background-color: #FAEF5F; *background-color: #003bb3; }
 
+address { line-height: 25px; }
+
 .copyright { margin-top: 10px; }
 
 .btn-hero, .btn-hero:hover { position: relative; color: white; text-decoration: none; background-color: #db5705; font-size: 30px; display: inline-block; padding: 15px 20px; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; -webkit-box-shadow: 0px 9px 0px #db1f05, 0px 9px 25px rgba(0, 0, 0, 0.7); -moz-box-shadow: 0px 9px 0px #db1f05, 0px 9px 25px rgba(0, 0, 0, 0.7); box-shadow: 0px 9px 0px #db1f05, 0px 9px 25px rgba(0, 0, 0, 0.7); text-align: center; -webkit-transition: all .1s ease; -moz-transition: all .1s ease; -ms-transition: all .1s ease; -o-transition: all .1s ease; transition: all .1s ease; border: none; }
