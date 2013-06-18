@@ -332,6 +332,7 @@ padding-left: 13px;
 
 h3 small {color:#fff;}
 
-.footer h4 {color:#80708a;}
+.footer h4,.ticket-price {color:#80708a;}
 
 .testimonialsText1{margin-top:20px;}
+.speaker img{margin-bottom:10px;}
