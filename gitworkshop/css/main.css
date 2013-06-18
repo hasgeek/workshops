@@ -332,6 +332,6 @@ padding-left: 13px;
 
 h3 small {color:#fff;}
 
-.footer h4 {color:#80708a;}
-
+.footer h4,.ticket-price {color:#80708a;}
+/* .ticket-price{color:#80708A;} */
 
