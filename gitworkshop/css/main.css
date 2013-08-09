@@ -85,6 +85,8 @@ color: #80708a;
 font-weight: bold;
 margin-top: 20px;}
 
+.seats a{font-size:14px; text-decoration: none;}
+
 
 .column {
   float: right;
