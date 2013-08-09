@@ -84,6 +84,7 @@ color: #80708a;
 font-weight: bold;
 margin-top: 20px;}
 
+.seats a{font-size:14px; text-decoration: none;}
 
 .column {
   float: right;
@@ -227,8 +228,16 @@ li.main-heading { margin-bottom: 15px;}
 .btn-info:hover{background:#856991;}
 h5{color: rgb(0, 0, 0);
 font-weight: normal;}
-a:hover{background: rgb(246, 255, 140);}
+          
 
 
 .register h4{color:#ec5a1e;}
 .ticket-price {color:#80708a;}
+.flickr{overflow: hidden;}
+
+.flickr a {
+display: block;
+float: left;
+padding-left: 13px;
+
+}
