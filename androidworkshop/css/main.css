@@ -1,0 +1,343 @@
+/* body {background: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/debut_dark.png);}
+ */
+body{margin:0;
+background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/rockywall.png);
+background-size: auto;
+background-repeat: repeat repeat;
+font-family: "Open Sans","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Arial,sans-serif;
+font-size: 16px;
+line-height: 24px;
+color: #333333;}
+#networkbar {margin-bottom: 20px;}
+
+.hero-unit {
+padding: 60px;
+margin-bottom: 30px;
+font-size: 18px;
+font-weight: 200;
+line-height: 33px;
+color: inherit;
+background-color: #efefef;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 5px;
+border:1px solid rgb(17, 38, 150);
+
+}
+.date-time{font-weight: bold; color:#80708a;}
+.register h4{color:#ec5a1e;}
+
+.hero-unit h1 {
+
+margin-bottom: 0;
+font-size: 47px;
+line-height: 1;
+color: inherit;
+letter-spacing: -1px;
+color: rgb(17, 38, 150);
+text-shadow: 1px 1px 1px rgb(145, 139, 139);
+
+
+}
+
+.hero-unit .lead{color: rgba(245, 245, 245, 0.85);} 
+h1{color:#ec5a1e;line-height:1.2;}
+.panel_body {
+width: auto;
+background-color: #fff;
+border-color:#80708a;
+border-style: solid;
+border-width: 1px;
+padding: 13px 14px;
+word-wrap: break-word;
+/*-moz-border-radius: 0 0 5px 5px;
+-webkit-border-radius: 0 0 5px 5px;
+border-radius: 0 0 5px 5px;*/
+min-height: 0;
+margin-bottom: 20px;
+}
+
+.panel_head2 {
+
+font-size: 18px;
+line-height: 22px;
+/* font-weight: 300; */
+background-color: #80708a;
+color:#fff;
+border-color: #80708a;
+border-style: solid;
+border-width: 1px;
+padding: 6px 11px 7px 14px;
+/*-moz-border-radius: 5px 5px 0 0;
+-webkit-border-radius: 5px 5px 0 0;
+border-radius: 5px 5px 0 0;
+ margin-bottom:10px; */
+}
+
+
+h3{margin: -1px 0;}
+
+.speaker-pic{text-align: center; margin-bottom: 10px;}
+.seats{
+  /* background: url("../img/hand.png") no-repeat bottom 0px right 240px; height: 87px;*/
+font-size: 20px;
+color: #80708a;
+font-weight: bold;
+margin-top: 20px;}
+
+.seats a{font-size:14px; text-decoration: none;}
+
+
+.column {
+  float: right;
+margin-left:20px;
+}
+
+.column h3 { font-size:14px;}
+.twitter-sharelink {
+  position: relative;
+  display: inline-block;
+  height: 16px;
+  padding: 2px;
+  border: 1px solid #ccc;
+  font-size: 11px;
+  color: #333;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+  font-weight: bold;
+  background-color: #F8F8F8;
+  background-image: -webkit-gradient(linear,left top,left     bottom,from(#FFF),to(#DEDEDE));
+  background-image: -moz-linear-gradient(top,#FFF,#DEDEDE);
+  background-image: -o-linear-gradient(top,#FFF,#DEDEDE);
+  background-image: -ms-linear-gradient(top,#FFF,#DEDEDE);
+  border: #CCC solid 1px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  overflow: hidden;
+  line-height: 1.5;
+}
+.twitter-sharelink:hover  {
+  border-color: #BBB;
+  background-color: #F8F8F8;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#F8F8F8),to(#D9D9D9));
+  background-image: -moz-linear-gradient(top,#F8F8F8,#D9D9D9);
+  background-image: -o-linear-gradient(top,#F8F8F8,#D9D9D9);
+  background-image: -ms-linear-gradient(top,#F8F8F8,#D9D9D9);
+  background-image: linear-gradient(top,#F8F8F8,#D9D9D9);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.twitter-sharelink .icon {
+  position: absolute;
+  width: 16px;
+  height: 13px;
+  top: 50%;
+  left: 3px;
+  margin-top: -6px;
+  background: url('https://twitter.com/favicons/favicon.ico') 1px center no-repeat;
+}
+.twitter-sharelink .text {
+  display: inline-block;
+  padding: 1px 3px 0 20px;
+}
+.facebook-sharelink {
+  position: relative;
+  background: #ECEEF5;
+  -webkit-border-radius: 3px;
+  border: 1px solid #CAD4E7;
+  cursor: pointer;
+  padding: 3px 6px;
+  white-space: nowrap;
+  color: #3B5998;
+  font-size: 11px;
+  text-decoration: none;
+  line-height: 1.5;
+}
+.facebook-sharelink:hover {
+  border-color: #9DACCE;
+}
+.facebook-sharelink .icon {
+  position: absolute;
+  background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y3/r/Q8FTZ0iJJF2.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  background-position: 0px 0px;
+  top: 3px;
+}
+.facebook-sharelink .text {
+  display: inline-block;
+  padding: 2px 1px 0 18px;
+}
+.googlep-sharelink {
+  background-color: #E4E4E4;
+  background-image: -webkit-linear-gradient(top,#F4F4F4,#E4E4E4);
+  background-image: linear-gradient(top,#F4F4F4,#E4E4E4);
+  border: 1px solid #BABABA;
+  border-top: 1px solid #CACACA;
+  border-bottom: 1px solid #ACACAC;
+  color: #DA573B;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, .7);
+  padding: 3px 6px 3px 6px;
+  text-decoration: none;
+  font-size: 11px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font-weight: bold;
+  position: relative;
+  line-height: 1.5;
+
+}
+.googlep-sharelink:hover {
+  -webkit-box-shadow: inset 0 1px 3px rgba(255, 255, 255, .2);
+box-shadow: inset 0 1px 3px rgba(255, 255, 255, .2);
+background-color: #F4F4F4;
+background-image: -webkit-linear-gradient(top,#FFF,#F4F4F4);
+background-image: linear-gradient(top,#FFF,#F4F4F4);
+}
+.googlep-sharelink .icon {
+  background: no-repeat url(//ssl.gstatic.com/s2/oz/images/sprites/plus-button-8acb339f3635cb33d1a6ec86ea74e7a2.png) -157px -36px;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  display: inline-block;
+  left:0;
+  top: 6px;
+}
+.googlep-sharelink .text {
+  display: inline-block;
+  padding: 2px 1px 0 13px;
+}
+.prerequisites > li{color:black; list-style-type: disc; font-weight: normal;}
+.focus > li{color:black; list-style-type: disc; font-weight: normal;}
+.content {margin-left: 0;}
+.content > .main-heading ul {margin-top:5px;}
+.content > .main-heading{list-style-type: none; color:#ec5a1e; font-weight: bold;}
+ul li {list-style-type: none; color:#ec5a1e; font-weight: bold;margin-bottom: 10px;
+margin-top: 10px;}
+ul li span{color:black;}
+ ul li ul li {list-style-type: disc; color:#333; font-weight: normal; line-height: 26px;}
+li.main-heading { margin-bottom: 15px;}
+.contact-number{color: rgb(236, 136, 7);font-weight: bold;}
+.add-margin {margin-bottom: 20px}
+.margin-top{margin-top: 20px}
+.social-networking{margin-top:17px;}
+.extra-20pxtop-pad {padding-top: 40px;padding-bottom: 40px; padding-left:7px;}
+.bottom{margin-top: 25px;}
+.btn-info{background:#ec5c20;}
+.btn-info:hover{background:#856991;}
+h5{color: rgb(0, 0, 0);
+font-weight: normal;}
+//a:hover{background: rgb(246, 255, 140);}
+
+
+/* ============================================================================================================================
+== BUBBLE WITH A BORDER AND TRIANGLE
+** ============================================================================================================================ */
+
+/* THE SPEECH BUBBLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+.triangle-border {
+  position:relative;
+  padding:15px;
+  margin:1em 0 2em;
+  margin-top: 15px;
+  border:1px solid #80708a;
+  color:#333;
+  background:#fff;
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+/* Variant : for left positioned triangle
+------------------------------------------ */
+
+.triangle-border.left {
+  margin-left:30px;
+}
+
+/* Variant : for right positioned triangle
+------------------------------------------ */
+
+.triangle-border.right {
+  margin-right:30px;
+}
+
+/* THE TRIANGLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+.triangle-border:before {
+  content: "";
+position: absolute;
+bottom: -16px;
+left: 46px;
+border-width: 16px 14px 0;
+border-style: solid;
+border-color: #80708a transparent;
+display: block;
+width: 0;
+}
+
+/* creates the smaller  triangle */
+.triangle-border:after {
+  content:"";
+  position:absolute;
+  bottom:-13px; /* value = - border-top-width - border-bottom-width */
+  left:47px; /* value = (:before left) + (:before border-left) - (:after border-left) */
+  border-width:13px 13px 0;
+  border-style:solid;
+  border-color:#fff transparent;
+    /* reduce the damage in FF3.0 */
+    display:block; 
+    width:0;
+}
+
+/* Variant : left
+------------------------------------------ */
+
+/* creates the larger triangle */
+.triangle-border.left:before {
+  top:10px; /* controls vertical position */
+  bottom:auto;
+  left:-30px; /* value = - border-left-width - border-right-width */
+  border-width:15px 30px 15px 0;
+  border-color:transparent #0072bb;
+}
+
+/* creates the smaller  triangle */
+.triangle-border.left:after {
+  top:16px; /* value = (:before top) + (:before border-top) - (:after border-top) */
+  bottom:auto;
+  left:-21px; /* value = - border-left-width - border-right-width */
+  border-width:9px 21px 9px 0;
+  border-color:transparent #fff;
+}
+
+.participant-detail{margin-bottom: 20px;
+padding-left: 20px;}
+.flickr{overflow: hidden;}
+.flickr a {
+display: block;
+float: left;
+padding-left: 13px;
+
+}
+@media screen and min-width(480){
+.flickr a{padding-left: 23px;}}
+
+h3 small {color:#fff;}
+
+.footer h4,.ticket-price {color:#80708a;}
+/* .ticket-price{color:#80708A;} */
+
+.testimonialsText1{margin-top:20px;}
+
+/*=====================================*/
+.diff-list-style{list-style-type: circle;}
