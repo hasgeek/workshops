@@ -341,3 +341,17 @@ h3 small {color:#fff;}
 
 /*=====================================*/
 .diff-list-style{list-style-type: circle;}
+
+/*====================================*/
+.bottom-logo{margin-top: -3px;
+margin-right: 10px;}
+/*===================================*/
+
+@media screen and (max-width: 768px){
+#hg-bar
+{
+  margin-left: -20px;
+margin-right: -20px;
+padding-left: 10px;
+}
+}
