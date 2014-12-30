@@ -1,7 +1,7 @@
-/* body {background: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/debut_dark.png);}
+/* body {background: url(../img/debut_dark.png);}
  */
 body{margin:0;
-background-image: url(http://bradjasper.com/subtle-patterns-bookmarklet/patterns/rockywall.png);
+background-image: url(../img/rockywall.png);
 background-size: auto;
 background-repeat: repeat repeat;
 font-family: "Open Sans","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Arial,sans-serif;
