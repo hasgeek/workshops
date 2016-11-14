@@ -138,3 +138,8 @@ header{
 .venue-location {
   padding-top: 20px;
 }
+
+.subscribe-button {
+  background-color: #ec5a1e;
+  color: white;
+}
