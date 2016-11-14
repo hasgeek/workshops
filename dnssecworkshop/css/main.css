@@ -119,3 +119,22 @@ header{
 #carousel-testimonials .carousel-control{
   background: transparent;
 }
+
+.address-description {
+  padding-top: 10px;
+  font-size: 16px;
+} 
+
+.address {
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+#map {
+  height: 200px;
+  width:  100%;
+}
+
+.venue-location {
+  padding-top: 20px;
+}
