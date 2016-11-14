@@ -135,6 +135,10 @@ header{
   width:  100%;
 }
 
+.venue-pic {
+  max-width: 100%;
+  height: auto;
+}
 .venue-location {
   padding-top: 20px;
 }
