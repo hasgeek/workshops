@@ -75,4 +75,14 @@ header{
   font-size: 24px;
 }
 
+.container .course-content div ul li{
+  list-style-type: none; 
+  font-size: 16px;
+  font-weight: bold;
+}
 
+.container .course-content div ul li ul li {
+  font-size: 16px;
+  font-weight: normal;
+  list-style-type: circle; 
+}
