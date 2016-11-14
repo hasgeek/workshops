@@ -107,13 +107,14 @@ header{
 }
 
 .container-fluid .row {
-  width: 900px;
+  max-width: 900px;
   float: none; 
   margin: 0 auto;
 }
 
 #carousel-testimonials {
-  height: 200px;
+  height: auto;
+  min-height: 240px;
 }
 
 #carousel-testimonials .carousel-control{
