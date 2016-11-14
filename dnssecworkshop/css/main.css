@@ -51,6 +51,14 @@ header{
 }
 
 
+/* WORKSHOP DETAILS
+ */
+.container {
+  width: 900px;
+}
 
+.container blockquote {
+  font-size: 24px;
+}
 
 
