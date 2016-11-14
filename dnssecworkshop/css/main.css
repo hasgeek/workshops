@@ -86,3 +86,13 @@ header{
   font-weight: normal;
   list-style-type: circle; 
 }
+
+.container .media .media-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container .media .media-body {
+  font-size: 16px;
+  font-weight: normal;
+}
