@@ -1,0 +1,56 @@
+/* HEADER
+ */
+
+header{
+  height:500px;
+  background: transparent;
+  background: linear-gradient(-45deg, rgba(223, 94, 14,0.85), rgba(255,255,44,0.5), transparent),  url('../img/header.jpg') ;
+  background-size: cover, cover;
+}
+
+.header h1 {
+  font-size: 47px;
+  line-height: 1;
+  color: inherit;
+  letter-spacing: -1px;
+  color: rgb(129, 104, 148);
+  text-shadow: 1px 1px 1px rgb(145, 139, 139);
+  margin: 0px;
+  padding-top: 120px;
+}
+
+.header .date {
+  padding-top: 12px;
+  font-size: 24px;
+  color: rgb(129, 104, 148);
+}
+
+.header .venue {
+  padding-top: 12px;
+  font-size: 20px;
+}
+
+.header .price {
+  padding-top: 24px;
+  font-size: 24px;
+  color: rgb(129, 104, 148);
+}
+
+.header .buy-ticket {
+  padding-top: 12px;
+}
+
+.header a {
+  color: rgb(129, 104, 148);
+}
+
+.header .cta-buttons {
+  background-color: transparent;
+  border-color: rgb(129, 104, 148);
+  color: inherit;
+}
+
+
+
+
+

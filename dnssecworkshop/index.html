@@ -10,6 +10,9 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="css/main.css">  
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,9 +21,20 @@
     <![endif]-->
   </head>
   <body>
+
     <div id="networkbar" data-siteid="workshops"></div>
-    <h1>Workshop on DNS and DNSSEC</h1>
-    
+    <header class="header">
+      <h1 class="text-center">Workshop on DNS and DNSSEC</h1>
+      <div class="text-center date">Dec 10 - 12</div>
+      <div class="text-center venue"><a href="http://axilor.com/"><strong>Axilor</strong></a> , <a href="#"><strong>Bangalore</strong></a></div>
+      <div class="text-center price">Rs. 6000</div>
+      <div class="text-center buy-ticket">
+        <a data-jmp-force="true" href="#" class="text-center">
+          <button class="btn btn-primary btn-transparent btn-lg cta-buttons"><strong>Buy Tickets</strong></button>
+        </a>
+      </div>
+    </header>
+
     <!-- necessary for HasGeek networkbar -->
     <script src="https://api.hasgeek.com/1/networkbar/networkbar.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
