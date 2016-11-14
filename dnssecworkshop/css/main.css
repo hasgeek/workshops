@@ -68,7 +68,7 @@ header{
 /* WORKSHOP DETAILS
  */
 .container {
-  width: 900px;
+  max-width: 900px;
 }
 
 .container blockquote {
