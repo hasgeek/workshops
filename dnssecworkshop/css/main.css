@@ -1,3 +1,17 @@
+/* BODY
+ */
+body {
+margin:0;
+font-family: "Open Sans","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Arial,sans-serif;
+font-size: 20px;
+line-height: 30px;
+color: #333333;
+}
+
+h1 {
+  color:#ec5a1e;
+}
+
 /* HEADER
  */
 
