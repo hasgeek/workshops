@@ -156,3 +156,18 @@ header{
 .social .unstyled {
   list-style-type: none;	
 }
+
+footer {
+  color: white;
+  text-shadow: 1px 1px 1px rgb(145, 139, 139);
+  font-size: 16px;
+  background: linear-gradient(-45deg, rgba(223, 94, 14,0.85), rgba(239,180,47,1), transparent);
+}
+
+footer .media {
+  padding-top: 20px;
+  max-width: 900px;
+  float: none; 
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
