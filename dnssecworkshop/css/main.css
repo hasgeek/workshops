@@ -192,6 +192,26 @@ header{
   color: rgb(129, 104, 148);
 }
 
+/* RELATED JOB OPPORTUNITIES AND RESOURCES
+ */
+
+.other-stuff {
+  font-size: 12px;
+}
+
+.other-stuff div ul{
+  list-style-type: none;
+}
+
+.other-stuff-title {
+  color: #ec5a1e;
+  font-size: 20px;
+}
+
+.other-stuff-item-title {
+  font-size: 16px;
+}
+
 /* SUBSCRIBE FORM
  */
 
