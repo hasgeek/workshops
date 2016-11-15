@@ -148,6 +148,48 @@ header{
   padding-top: 20px;
 }
 
+/* RELATED EVENTS
+ */
+.panel {
+  background: linear-gradient(-45deg, rgba(223, 94, 14,0.85), rgba(239,180,47,1), transparent);
+}
+
+
+.panel .panel-body .event-name {
+  font-size: 16px;
+  color: rgb(129, 104, 148);
+  font-weight: bold;
+}
+
+.panel .panel-body .event-date {
+  font-size: 12px;
+  color: rgb(129, 104, 148);
+}
+
+.panel .panel-body .event-city {
+  font-size: 12px;
+  color: rgb(129, 104, 148);
+}
+
+
+.panel .panel-body .event-price {
+  font-size: 14px;
+  color: rgb(129, 104, 148);
+}
+
+.panel .cta-buttons {
+  background-color: transparent;
+  border-color: rgb(129, 104, 148);
+  color: inherit;
+}
+
+.panel a {
+  color: rgb(129, 104, 148);
+}
+
+/* SUBSCRIBE FORM
+ */
+
 .form-group {
   padding-top: 20px;
 }
