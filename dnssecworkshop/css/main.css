@@ -16,54 +16,48 @@ h1 {
  */
 
 header{
-  height:500px;
   background: transparent;
-  background: linear-gradient(-45deg, rgba(223, 94, 14,0.85), rgba(255,255,44,0.5), transparent),  url('../img/header.jpg') ;
-  background-size: cover, cover;
+  background: linear-gradient(135deg, rgba(80,200,120,1), rgba(255,153,51,1)) ;
+  background-size: cover;
+  height:500px;
 }
 
-.header h1 {
-  font-size: 47px;
-  line-height: 1;
-  color: inherit;
+header .content {
+  float: none; 
+  margin: 0 auto;
+  max-width: 900px;
+  padding-top: 12px;
+}
+
+.header .title {
+  color: white;
+  font-size: 88px;
   letter-spacing: -1px;
-  color: rgb(129, 104, 148);
-  text-shadow: 1px 1px 1px rgb(145, 139, 139);
+  line-height: 1;
   margin: 0px;
-  padding-top: 120px;
-}
-
-.header .date {
-  padding-top: 12px;
-  font-size: 24px;
-  color: rgb(129, 104, 148);
-}
-
-.header .venue {
-  padding-top: 12px;
-  font-size: 20px;
-}
-
-.header .price {
   padding-top: 24px;
+}
+
+.header .date, .header .venue, .header .price {
   font-size: 24px;
-  color: rgb(129, 104, 148);
+  padding-top: 16px;
 }
 
 .header .buy-ticket {
-  padding-top: 12px;
+  padding-top: 16px;
 }
 
 .header a {
-  color: rgb(129, 104, 148);
+  color: #333333;
 }
 
 .header .cta-buttons {
-  background-color: transparent;
-  border-color: rgb(129, 104, 148);
-  color: inherit;
+  background-color: rgb(255,153,51);
+  box-shadow: 3px 3px 3px #333333;
+  color: white;
+  font-size: 24px;
+  padding: 12px 30px;
 }
-
 
 /* WORKSHOP DETAILS
  */
