@@ -1,50 +1,63 @@
+/* Resets and overrides
+ */
+* {
+  margin: 0;
+  padding: 0;
+}	
+
 /* BODY
  */
 body {
 margin:0;
 font-family: "Open Sans","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Arial,sans-serif;
-font-size: 20px;
-line-height: 30px;
+font-size: 24px;
+line-height: 39px;
 color: #333333;
 }
 
 h1 {
   color:#ec5a1e;
+  font-size: 39px;
+  padding-bottom: 12px;
 }
+
+a {
+  color: rgb(44, 182, 115);
+}
+
 
 /* HEADER
  */
 
 header{
   background: transparent;
-  background: linear-gradient(135deg, rgba(80,200,120,1), rgba(255,153,51,1)) ;
+  background: linear-gradient(135deg, rgba(72,186,115,1), rgba(247,148,29,1)) ;
   background-size: cover;
-  height:500px;
+  height:600px;
 }
 
-header .content {
+.content {
   float: none; 
   margin: 0 auto;
   max-width: 900px;
-  padding-top: 12px;
+  padding-top: 39px;
 }
 
 .header .title {
   color: white;
-  font-size: 88px;
+  font-size: 96px;
   letter-spacing: -1px;
   line-height: 1;
   margin: 0px;
-  padding-top: 24px;
 }
 
 .header .date, .header .venue, .header .price {
-  font-size: 24px;
+  font-size: 32px;
   padding-top: 16px;
 }
 
 .header .buy-ticket {
-  padding-top: 16px;
+  padding-top: 24px;
 }
 
 .header a {
@@ -52,11 +65,11 @@ header .content {
 }
 
 .header .cta-buttons {
-  background-color: rgb(255,153,51);
+  background-color: rgb(224,93,54);
   box-shadow: 3px 3px 3px #333333;
   color: white;
-  font-size: 24px;
-  padding: 12px 30px;
+  font-size: 39px;
+  padding: 20px 39px;
 }
 
 /* WORKSHOP DETAILS
@@ -65,38 +78,59 @@ header .content {
   max-width: 900px;
 }
 
-.container blockquote {
-  font-size: 24px;
+.container .intro p {
+  padding-top: 48px;
+  padding-bottom: 6px;
 }
 
-.title-social-share {
-  color: rgb(129, 104, 148);
+.container .intro p {
+  font-size: 39px;
+}
+
+.container .workshop-pitch {
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+
+.container .targeted-audience {
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+
+.container .course-content {
+  padding-top: 12px;
+  padding-bottom: 6px;
 }
 
 .container .course-content div ul li{
-  list-style-type: none; 
-  font-size: 16px;
+  list-style-type: square; 
+  font-size: 24px;
   font-weight: bold;
 }
 
 .container .course-content div ul li ul li {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: normal;
-  list-style-type: circle; 
+  list-style-type: square; 
+  margin-left: 39px;
 }
 
-.container .media .media-heading {
-  font-size: 20px;
+.container-fluid .trainer-bio {
+  background: rgb(44, 182, 115);
+  padding-bottom:  39px;
+}
+
+.container-fluid .trainer-bio .media .media-heading {
+  font-size: 24px;
   font-weight: bold;
 }
 
-.container .media .media-body {
-  font-size: 16px;
+.container-fluid .trainer-bio .media .media-body {
+  font-size: 24px;
   font-weight: normal;
 }
 
 .container-fluid {
-  background: linear-gradient(-45deg, rgba(223, 94, 14,0.85), rgba(239,180,47,1), transparent);
   color: white;
 }
 
@@ -104,6 +138,9 @@ header .content {
   color: white;
 }
 
+.container-fluid .testimonials {
+  background: rgb(247, 148, 29);  
+}
 .container-fluid .row {
   max-width: 900px;
   float: none; 
@@ -112,21 +149,28 @@ header .content {
 
 #carousel-testimonials {
   height: auto;
-  min-height: 240px;
+  min-height: 550px;
+}
+
+.testimonial, .testimonial-author {
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 #carousel-testimonials .carousel-control{
   background: transparent;
+  padding-left: :5px;
+  padding-right: 5px;
 }
 
 .address-description {
   padding-top: 10px;
-  font-size: 16px;
+  font-size: 24px;
 } 
 
 .address {
-  padding-top: 10px;
-  font-size: 12px;
+  padding-top: 12px;
+  font-size: 24px;
 }
 
 #map {
@@ -145,52 +189,50 @@ header .content {
 /* RELATED EVENTS
  */
 .panel {
-  background: linear-gradient(-45deg, rgba(223, 94, 14,0.85), rgba(239,180,47,1), transparent);
+  background: rgb(247, 148, 29);
 }
 
-
+.panel .panel-body {
+  padding: 39px;
+}
 .panel .panel-body .event-name {
-  font-size: 16px;
-  color: rgb(129, 104, 148);
+  font-size: 24px;
+  color: white;
   font-weight: bold;
 }
 
 .panel .panel-body .event-by {
-  font-size: 12px;
-  color: rgb(129, 104, 148);
+  font-size: 24px;
+  padding-bottom: 24px;
 }
 
 .panel .panel-body .event-date {
-  font-size: 12px;
-  color: rgb(129, 104, 148);
+  font-size: 24px;
 }
 
 .panel .panel-body .event-city {
-  font-size: 12px;
-  color: rgb(129, 104, 148);
+  font-size: 24px;
 }
 
 
 .panel .panel-body .event-price {
-  font-size: 14px;
-  color: rgb(129, 104, 148);
+  font-size: 24px;
 }
 
 .panel .cta-buttons {
-  background-color: transparent;
-  border-color: rgb(129, 104, 148);
+  background-color: rgb(224, 93, 54);
   color: inherit;
 }
 
 .panel a {
-  color: rgb(129, 104, 148);
+  color: white;
 }
 
 /* RELATED JOB OPPORTUNITIES AND RESOURCES
  */
 
 .other-stuff {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .other-stuff div ul{
@@ -199,22 +241,26 @@ header .content {
 
 .other-stuff-title {
   color: #ec5a1e;
-  font-size: 20px;
+  font-size: 39px;
 }
 
 .other-stuff-item-title {
-  font-size: 16px;
+  font-size: 18px;
+}
+
+.other-stuff-item-title {
+  font-size: 18px;
 }
 
 /* SUBSCRIBE FORM
  */
 
 .form-group {
-  padding-top: 20px;
+  padding-top: 24px;
 }
 
 .subscribe-button {
-  background-color: #ec5a1e;
+  background-color: rgb(224, 93, 54);
   color: white;
 }
 
@@ -224,10 +270,9 @@ header .content {
 }
 
 footer {
-  color: white;
-  text-shadow: 1px 1px 1px rgb(145, 139, 139);
-  font-size: 16px;
-  background: linear-gradient(-45deg, rgba(223, 94, 14,0.85), rgba(239,180,47,1), transparent);
+  color: #333333;
+  font-size: 24px;
+  background: rgb(185, 224, 203);
 }
 
 footer .media {
