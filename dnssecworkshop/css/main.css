@@ -12,7 +12,7 @@ margin:0;
 font-family: "Open Sans","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Arial,sans-serif;
 font-size: 24px;
 line-height: 39px;
-color: #333333;
+color: #333;
 }
 
 h1 {
@@ -33,134 +33,156 @@ header{
   background: transparent;
   background: linear-gradient(135deg, rgba(72,186,115,1), rgba(247,148,29,1)) ;
   background-size: cover;
-  height:600px;
 }
 
 .content {
-  float: none; 
   margin: 0 auto;
+  padding: 45px 15px;
   max-width: 900px;
-  padding-top: 39px;
 }
 
 .header .title {
   color: white;
-  font-size: 96px;
+  font-size: 70px;
   letter-spacing: -1px;
   line-height: 1;
   margin: 0px;
 }
 
 .header .date, .header .venue, .header .price {
-  font-size: 32px;
-  padding-top: 16px;
-}
-
-.header .buy-ticket {
-  padding-top: 24px;
+  font-size: 30px;
+  margin: 15px 0 0;
 }
 
 .header a {
   color: #333333;
 }
 
-.header .cta-buttons {
-  background-color: rgb(224,93,54);
-  box-shadow: 3px 3px 3px #333333;
+.buy-ticket {
+  background: #DF5E0E;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   color: white;
-  font-size: 39px;
-  padding: 20px 39px;
+  font-size: 20px;
+  padding: 12px 20px;
+  border-width: 0 0 3px;
+  border-color: #bb4e0a;
+  margin: 24px 0 0;
 }
 
+.buy-ticket:hover {
+  background-color: #d0580d;
+}
 /* WORKSHOP DETAILS
  */
-.container {
+.workshop-details {
   max-width: 900px;
 }
 
-.container .intro p {
-  padding-top: 48px;
-  padding-bottom: 6px;
+.workshop-details .intro p {
+  font-size: 30px;
+  margin: 45px 0;
+  line-height: 1.5;
 }
 
-.container .intro p {
-  font-size: 39px;
+.workshop-details .section {
+  padding: 20px 0;
 }
 
-.container .workshop-pitch {
-  padding-top: 12px;
-  padding-bottom: 6px;
+.heading {
+  font-size: 35px;
+  margin: 15px 0;
+  padding: 0;
 }
 
-.container .targeted-audience {
-  padding-top: 12px;
-  padding-bottom: 6px;
+.para {
+  font-size: 18px;
+  margin: 5px 0;
+  padding: 0;
 }
 
-.container .course-content {
-  padding-top: 12px;
-  padding-bottom: 6px;
-}
-
-.container .course-content div ul li{
+.workshop-details .course-content div ul li{
   list-style-type: square; 
   font-size: 24px;
   font-weight: bold;
 }
 
-.container .course-content div ul li ul li {
+.workshop-details.course-content div ul li ul li {
   font-size: 24px;
   font-weight: normal;
   list-style-type: square; 
   margin-left: 39px;
 }
 
-.container-fluid .trainer-bio {
+.trainer-wrapper {
   background: rgb(44, 182, 115);
-  padding-bottom:  39px;
+  padding: 20px 15px;
+  color: #fff;
 }
 
-.container-fluid .trainer-bio .media .media-heading {
-  font-size: 24px;
-  font-weight: bold;
+.trainer-wrapper .heading,
+.testimonials .heading {
+  color: #fff;
 }
 
-.container-fluid .trainer-bio .media .media-body {
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.container-fluid {
-  color: white;
-}
-
-.container-fluid h1 {
-  color: white;
-}
-
-.container-fluid .testimonials {
-  background: rgb(247, 148, 29);  
-}
-.container-fluid .row {
+.trainer-bio {
   max-width: 900px;
-  float: none; 
+  margin: auto;
+}
+
+.instructor-image {
+  width: 100%;
+  max-width: 150px;
+  margin: 0 0 20px;
+}
+
+.instructor {
+  font-size: 25px;
+  margin: 0 0 20px;
+}
+
+.ticketing {
+  padding: 20px 0;
+  max-width: 900px;
+}
+
+.testimonials-wrapper {
+  background: #f7941e;
+  color: #fff;
+}
+
+.testimonials {
+  max-width: 900px;
   margin: 0 auto;
+  padding: 20px 0;
 }
 
-#carousel-testimonials {
-  height: auto;
-  min-height: 550px;
+#carousel-testimonials .item{
+  min-height: 530px;
+  padding: 0 20px;
 }
 
-.testimonial, .testimonial-author {
-  padding-left: 150px;
-  padding-right: 150px;
+@media (min-width: 1200px) {
+  #carousel-testimonials .item{
+    min-height: 450px;
+  }
 }
 
-#carousel-testimonials .carousel-control{
+#carousel-testimonials .carousel-control {
   background: transparent;
-  padding-left: :5px;
-  padding-right: 5px;
+  margin: 0 -20px;
+}
+
+@media (min-width: 1200px) {
+  #carousel-testimonials .item {    
+    padding: 0 20px;
+  }
+  #carousel-testimonials .carousel-control {
+    margin: 0 -100px;
+  }
+}
+
+.img-square {
+  max-height: 60px;
 }
 
 .address-description {
@@ -178,16 +200,22 @@ header{
   width:  100%;
 }
 
+.venue {
+  padding: 20px 0;
+}
+
 .venue-pic {
-  max-width: 100%;
+  max-width: 900px;
   height: auto;
 }
+
 .venue-location {
   padding-top: 20px;
 }
 
 /* RELATED EVENTS
  */
+
 .panel {
   background: rgb(247, 148, 29);
 }
@@ -219,15 +247,6 @@ header{
   font-size: 24px;
 }
 
-.panel .cta-buttons {
-  background-color: rgb(224, 93, 54);
-  color: inherit;
-}
-
-.panel a {
-  color: white;
-}
-
 /* RELATED JOB OPPORTUNITIES AND RESOURCES
  */
 
@@ -252,18 +271,6 @@ header{
   font-size: 18px;
 }
 
-/* SUBSCRIBE FORM
- */
-
-.form-group {
-  padding-top: 24px;
-}
-
-.subscribe-button {
-  background-color: rgb(224, 93, 54);
-  color: white;
-}
-
 .social .unstyled {
   list-style-type: none;
   padding-top: 20px;	
@@ -273,12 +280,20 @@ footer {
   color: #333333;
   font-size: 24px;
   background: rgb(185, 224, 203);
+  padding: 40px 0;
 }
 
-footer .media {
-  padding-top: 20px;
+.logo-wrapper {
+  text-align: center;
+}
+
+footer .hasgeek-logo {
+  width: 130px;
+  margin: 0 0 20px;
+}
+
+.about {
   max-width: 900px;
-  float: none; 
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding: 0 15px;
 }

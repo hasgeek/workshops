@@ -52,46 +52,48 @@
 
     <div id="networkbar" data-siteid="workshops"></div>
     <header class="header">
-      <div class="content">
+      <div class="content container">
         <h1 class="text-left title">Workshop on </h1><h1 class="text-left title">DNS and DNSSEC</h1>
-        <div class="text-left date">Dec 10 - 12</div>
-        <div class="text-left venue"><a href="http://axilor.com/">HasGeek</a> , <a href="#">Bangalore</a></div>
-        <div class="text-left price">Rs. 6000</div>
-        <div class="text-left buy-ticket">
-          <a data-jmp-force="true" href="#" class="text-center">
-            <button class="btn btn-primary btn-transparent btn-lg cta-buttons">BUY TICKETS</button>
-          </a>
+        <p class="text-left date">10&#8211;12 December 2016</p>
+        <p class="text-left venue"><a href="https://goo.gl/maps/Mn3ycephnB62" target="_blank">HasGeek, Bangalore</a></p>
+        <p class="text-left price"><i class="fa fa-inr"></i>6000</p>
+        <div class="text-left">
+          <a class="btn btn-primary btn-transparent btn-lg buy-ticket">BUY TICKETS</a>
         </div>
       </div>
     </header>
 
     <!-- Workshop details -->
-    <div class="container">
+    <div class="container workshop-details">
+
       <div class="intro">
         <!-- Event Blurb -->
-        <p class="lead text-left ">
+        <p class="text-left">
           Why does it take 24-48 hours to propagate your DNS changes? Why is the world moving to Ipv6? How to secure your systems from DNS Vulnerabilities? By the end of this course, you will you will have a strong foundation on how DNS works and you can start boring your friends by talking all about it.
         </p>
       </div> 
+
       <!-- Why attend? -->
-      <div class="workshop-pitch">
-        <h1 class="text-left">WHY ATTEND?</h1>
-        <p class="text-left">
+      <div class="section">
+        <h1 class="text-left heading">Why attend?</h1>
+        <p class="text-left para">
           At the end of this course, participants will be familiar with the Domain Name System and Security Extensions to the Domain Name System (DNSSEC). The course is taught “hands-on” in a virtualized FreeBSD environment using the BIND, NSD and Unbound name server implementations. Participants will configure authoritative and recursive domain name servers and will learn to analyse and debug common misconfigurations and bugs. Who knows, this could be your way to a DNS admin job!
         </p>
       </div>
+
       <!-- Who is it for? -->
-      <div class="targeted-audience">
-        <h1 class="text-left">WHO IS IT FOR?</h1>
-        <p class="text-left">
+      <div class="section">
+        <h1 class="text-left heading">Who is it for?</h1>
+        <p class="text-left para">
           Participants should be familiar with Unix-style operating systems. The course is taught on FreeBSD but the environment will be familiar to people with a systems administration background on Linux or Solaris. The virtualized lab environment is hosted on a server in Germany. 
         </p>
       </div>  
+
       <!-- What will you learn? -->
-      <div class="row course-content center-left">
-        <h1 class="text-left">WHAT WILL YOU LEARN?</h1>
-        <div class="col-lg-6 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
-          <ul>
+      <div class="section clearfix">
+        <h1 class="text-left heading">What will you learn?</h1>
+        <div class="col-sm-6 col-xs-12">
+          <ul class="para">
             <li>
               Introduction to DNS 
               <ul>
@@ -124,8 +126,9 @@
             </li>
           </ul>
         </div>
-        <div class="col-lg-6 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
-          <ul>
+
+        <div class="col-sm-6 col-xs-12">
+          <ul class="para">
             <li>
               Configuring secondary DNS servers
               <ul>
@@ -159,202 +162,109 @@
             </li>
           </ul>
         </div>
-      </div> <!-- End of row -->
+      </div>
+
     </div> <!-- End of workshop details -->
 
-    <!-- Testimonials section -->
-    <div class="container-fluid"> 
+    <div class="trainer-wrapper">
       <div class="trainer-bio">
-        <div class="content">
-          <h1 class="text-left">About the instructor</h1>
-          <div class="media">
-            <div class="media-left media-top">
-              <img src="https://imgee.s3.amazonaws.com/imgee/75378f8beabf45cbb506317b8f359a70.jpeg" class="media-object" style="width:60px">
-            </div>
-            <div class="media-body">
-              <div class="media-heading">Philips Paeps (“trouble”)</div>
-              <p>Philip Paeps (“trouble”) is an independent consultant and contractor based in Belgium. He provides research and development on low-level software and operating systems, particularly in an embedded or real-time context. His main interests are bootloaders, device drivers and high-performance networking. He can also be convinced to teach courses and workshops on a variety of networking-related topics. In his so-called free time, Philip is a FreeBSD committer contributing mainly to the kernel and a member of the FreeBSD security team. He was one of the main organisers of FOSDEM, the largest annual open source software conference in Europe, from the early 2000s until 2015. He denies having any involvement with amateur radio or tabletop role playing games.</p>
-            </div>
-          </div> <!-- End of media -->
-        </div>
-      </div>
-      <div class="testimonials">
-        <div class="row text-center content">
-          <h1 class="text-left">TESTIMONIALS</h1>
-          <div class="col-md-12">
-            <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
-              <!--INDICATORS-->
-              <ol class="carousel-indicators carousel-indicators-set">
-                <li data-target="#carousel-testimonials" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-testimonials" data-slide-to="1"></li>
-              </ol>
-
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <div class="testimonial text-left">
-                    "The DNS workshop was very useful as it was hands-on with the labs setup. The instructor had thought thoroughly with the course material and gradually walked through the concepts patiently explaining them one by one. Also the fact that the instructor was running a production DNS network helped a lot as he could explain some of the operational aspects of doing it and answer any question from the audience regarding it."
-                  </div>
-                  <div class="testimonial-author text-right">
-                    <img src="https://imgee.s3.amazonaws.com/imgee/f3e2dc37fc7d4f028cf0c366435d5799_w150_h150.jpeg" alt="testimonials in bootstrap" height="42" width="42" class="img-square" />
-                    - <strong>Vinayak Hegde</strong>, HELPSHIFT
-                  </div>   
-                  <br/><br/>           
-                </div>
-                <div class="item">
-                  <div class="testimonial text-left">
-                    "Trouble has deep knowledge about the subject and is a master at mixing interesting narratives and hands on sessions to keep the attendees involved. Would recommend to anyone who wants to understand more about DNS/DNSSEC."
-                  </div>
-                  <div class="testimonial-author text-right">
-                    <img src="https://avatars0.githubusercontent.com/u/223910" alt="testimonials in bootstrap" height="42" width="42" class="img-square" />
-                    - <strong>Dhananjay Balan</strong>, Cliqz.com
-                  </div> 
-                  <br/><br/>             
-                </div>           
-              </div>  
-              <a class="left carousel-control" href="#carousel-testimonials" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#carousel-testimonials" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>     
-            </div>
+        <h1 class="text-left heading">About the instructor</h1>
+        <div class="row">
+          <div class="col-sm-2 col-xs-12">
+            <img src="https://imgee.s3.amazonaws.com/imgee/75378f8beabf45cbb506317b8f359a70.jpeg" class="instructor-image">
+          </div>
+          <div class="col-sm-10 col-xs-12">
+            <h3 class="instructor">Philips Paeps (“Trouble”)</h3>
+            <p class="para">Trouble is an independent consultant and contractor based in Belgium. He provides research and development on low-level software and operating systems, particularly in an embedded or real-time context. His main interests are bootloaders, device drivers and high-performance networking. He can also be convinced to teach courses and workshops on a variety of networking-related topics. In his so-called free time, Philip is a FreeBSD committer contributing mainly to the kernel and a member of the FreeBSD security team. He was one of the main organisers of FOSDEM, the largest annual open source software conference in Europe, from the early 2000s until 2015. He denies having any involvement with amateur radio or tabletop role playing games.</p>
           </div>
         </div>
       </div>
-    </div> <!-- End of Testimonials Section -->
+    </div>
 
-    <div class="container">
+
+    <div class="container ticketing">
+      <div id="boxoffice-widget"><p class="text-center">Loading...</p></div>
+    </div>
+
+    <div class="testimonials-wrapper clearfix">
+      <div class="testimonials">
+        <div class="col-md-12">
+          <h1 class="text-left heading">Testimonials</h1>
+          <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+            <!--INDICATORS-->
+            <ol class="carousel-indicators carousel-indicators-set">
+              <li data-target="#carousel-testimonials" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-testimonials" data-slide-to="1"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <div class="testimonial text-left">
+                  "The DNS workshop was very useful as it was hands-on with the labs setup. The instructor had thought thoroughly with the course material and gradually walked through the concepts patiently explaining them one by one. Also the fact that the instructor was running a production DNS network helped a lot as he could explain some of the operational aspects of doing it and answer any question from the audience regarding it."
+                </div>
+                <div class="testimonial-author text-right">
+                  <img src="https://imgee.s3.amazonaws.com/imgee/f3e2dc37fc7d4f028cf0c366435d5799_w150_h150.jpeg" alt="Vinayak" class="img-square" />
+                  - <strong>Vinayak Hegde</strong>, <br>Helpshift
+                </div>
+                <br/><br/>
+              </div>
+              <div class="item">
+                <div class="testimonial text-left">
+                  "Trouble has deep knowledge about the subject and is a master at mixing interesting narratives and hands on sessions to keep the attendees involved. Would recommend to anyone who wants to understand more about DNS/DNSSEC."
+                </div>
+                <div class="testimonial-author text-right">
+                  <img src="https://avatars0.githubusercontent.com/u/223910" alt="Dhananjay" class="img-square" />
+                  - <strong>Dhananjay Balan</strong>, <br>Cliqz.com
+                </div>
+                <br/><br/>          
+              </div>           
+            </div>  
+            <a class="left carousel-control" href="#carousel-testimonials" role="button" data-slide="prev">
+              <span class="icon-prev" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-testimonials" role="button" data-slide="next">
+              <span class="icon-next" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>     
+          </div>
+        </div>
+      </div>
+    </div><!-- EOF testimonials Section -->
+
+    <div class="container venue">
       <!-- Venue Section -->
-      <div class="row text-center">
+      <div class="text-center">
         <h1>Venue</h1>
-        <h2>HasGeek House</h2>
         <img class="venue-pic" src="https://images.hasgeek.com/embed/file/9bb9057889484d72b21f988fb3ed1692">
       </div>
-      <div class="row venue-location">
-        <div class="col-md-8 text-left">
+
+      <div class="venue-location">
+        <div class="col-sm-4 col-sm-offset-2 col-sm-12">
           <p class="address-description">
-            <strong>HasGeek House is located behind Carlton tower, 500m away from Domlur flyover.</strong>
+            <strong>HasGeek House</strong>
           </p>
           <p class="address">
             #2699, 19th Main, 5th Cross<br/>
+            Behind Carlton tower<br/>
             Indiranagar HAL 2nd Stage<br/>
             Bangalore - 560008<br/>
           </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-4 col-sm-12">
           <div id="map"></div>
         </div> 
-      </div> <!-- End of Venue Section -->
-
-      <!-- Related Events -->
-      <div class="row">
-        <h1 class="text-center">Related events</h1>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <div class="event-name text-left">Ansible Workshop</div>
-              <div class="event-by text-left">by Aditya Patwari</div> 
-              <div class="event-date text-left">Dec 10 - 12</div>   
-              <div class="event-city text-left">Bengaluru</div> 
-              <div class="event-price text-left"><strike>Rs. 15,000</strike> Rs. 10500</div> 
-              <div class="text-left">
-                <a data-jmp-force="true" href="https://www.instamojo.com/devopsnexus/one-day-hands-on-ansible-workshop/?discount=hasgeek" class="text-center">
-                  <button class="btn btn-primary btn-transparent btn-lg cta-buttons"><strong>Buy Tickets</strong></button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <div class="event-name text-left">Docker Workshop</div>
-              <div class="event-by text-left">by Aditya Patwari</div> 
-              <div class="event-date text-left">Dec 10 - 12</div>   
-              <div class="event-city text-left">Bengaluru</div> 
-              <div class="event-price text-left"><strike>Rs. 15,000</strike> Rs. 10500</div> 
-              <div class="text-left">
-                <a data-jmp-force="true" href="https://www.instamojo.com/devopsnexus/two-day-container-workshop-on-docker-platfor/?discount=hasgeek" class="text-center">
-                  <button class="btn btn-primary btn-transparent btn-lg cta-buttons"><strong>Buy Tickets</strong></button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row other-stuff">
-        <!-- Related Job Opportunities -->
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <div class="other-stuff-title text-left">Related Jobs</div>
-          <ul>
-            <li>
-              <a href="https://hasjob.co/theatrolabs.com/eer80" class="other-stuff-item-title">DevOps chops! You got?</a><br/>
-              <a href="https://hasjob.co/theatrolabs.com">Theatro Labs</a>, <a href="https://hasjob.co/in/bangalore">Bangalore, IN</a>
-            </li>
-            <li>
-              <a href="https://hasjob.co/reverieinc.com/n5tbe" class="other-stuff-item-title">Looking for DevOps Engineer who is ready to solve Complex Problems</a><br/>
-              <a href="https://hasjob.co/reverieinc.com">Reverie Language Technologies</a>, <a href="https://hasjob.co/in/bangalore">Bangalore, IN</a>
-            </li>
-            <li>
-              <a href="https://hasjob.co/mobiport.io/v0q6x?b=1" class="other-stuff-item-title">DevOps Engineer in Hyderabad</a><br/>
-              <a href="https://hasjob.co/mobiport.io">Mobiport</a>, <a href="https://hasjob.co/?l=hyderabad">Hyderabad, IN</a>
-            </li>
-            <li>
-              <a href="https://hasjob.co/bhujang.net/3o4ds" class="other-stuff-item-title">DevOps Automation Engineer - Cyber Security Analytics</a><br/>
-              <a href="https://hasjob.co/bhujang.net">Bhujang</a>, <a href="https://hasjob.co/?l=gurgaon">Gurgaon, IN</a>
-            </li>            
-          </ul>
-        </div>
-        <!-- Resources -->
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <div class="other-stuff-title text-left">Resources</div>
-          <ul>
-            <li><a href="https://trouble.is/~philip/2015-08-DNSSEC-SdNOG/DNSSEC-course.pdf" class="other-stuff-item-title">Course slides</a></li>
-            <li><a href="https://hasjob.co/bhujang.net" class="other-stuff-item-title">Why DNS is awesome and why you should love it</a></li>
-            <li><a href="https://linux.die.net/man/1/dig" class="other-stuff-item-title">dig(1) - Linux man page</a></li>
-          </ul>
-        </div>
-      </div>
-      <!-- Subscribe Section -->
-      <div class="row text-center">
-        <h1>Sign-up for HasGeek Updates</h1><br/>
-        Stay up to date with news, meet ups & conferences
-        <form class="form-horizontal">
-          <div class="form-group">
-            <label class="control-label col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-1 col-sm-2 col-xs-12" for="email">Email:</label>
-            <div class="col-lg-5 col-md-6 col-sm-8 col-xs-12">
-              <input type="email" class="form-control" id="email" placeholder="Enter email">
-            </div>
-          </div>  
-          <div class="form-group"> 
-            <div class="col-lg-2 col-lg-offset-4 col-md-2 col-md-offset-3 col-sm-2 col-sm-offset-2 col-xs-12">
-              <button type="submit" class="btn btn-default subscribe-button">Submit</button>
-            </div>
-          </div>
-        </form>
-      </div>
-      <!-- Social follow buttons -->
-      <div class="social">
-        <ul class="unstyled text-center">
-          <!--This will work without any extra info any page-->
-          <li><a class="twitter-follow-button" href="https://twitter.com/HasGeek">Follow @HasGeek</a></li>
-          <!--Facebook requires app id(script) and page url(below)-->
-          <li><div class="fb-like" data-href="https://dnssec.hasgeek.com" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div></li>
-        </ul>
       </div>
     </div>
+
     <!--Footer-->
     <footer>
-      <div class="media">
-        <div class="media-left media-top">
-          <img src="https://hasgeek.com/static/img/hg-banner.png" class="media-object" style="width:60px">
-        </div>
-        <div class="media-body">
-          <p>HasGeek creates discussion spaces for geeks. Come to our events to meet like-minded people, learn new things and discover new opportunities. We operate <a href="http://www.w3schools.com">Hasjob</a>, hang out on a <a href="http://www.w3schools.com">Slack channel</a>, and publish our code. Our activities reach thousands of developers every month. <a href="https://talkfunnel.com/">Speak at our events</a>, or <a href="http://eepurl.com/duGmH">sign up to be notified</a> when we do one. Watch videos from past events on <a href="https://hasgeek.tv/">HasGeek TV</a>.</p>
-        </div>
-      </div> <!-- End of media -->      
+      <div class="logo-wrapper">
+        <img src="https://hasgeek.com/static/img/hg-banner.png" class="hasgeek-logo" alt="HasGeek">
+      </div>
+      <div class="about">
+        <p><a href="https://hasgeek.com" target="_blank">HasGeek</a> creates discussion spaces for geeks. Come to our events to meet like-minded people, learn new things and discover new opportunities. We operate <a href="https://hasjob.co/" target="_blank">Hasjob</a>, hang out on a <a href="https://friends.hasgeek.com/" target="_blank">Slack channel</a>, and publish our code. Our activities reach thousands of developers every month. <a href="https://talkfunnel.com/" target="_blank">Speak at our events</a>, or <a href="http://eepurl.com/duGmH" target="_blank">sign up to be notified</a> when we do one. Watch videos from past events on <a href="https://hasgeek.tv/" target="_blank">HasGeek TV</a>.</p>
+      </div> 
     </footer>
     <!-- necessary for HasGeek networkbar -->
     <script src="https://api.hasgeek.com/1/networkbar/networkbar.js"></script>
@@ -364,24 +274,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- necessary for loading maps -->
     <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
-
-    <script language="javascript" type="text/javascript">
-
-      //Display Map
-      $(document).ready(function() {
-        // Create the map
-        var map = L.map('map').setView([12.9615312, 77.6443048], 13);
-        // Set up the OSM layer
-        L.tileLayer(
-          'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
-          {maxZoom: 18, attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
-        // add a marker in the given location
-        L.marker([12.9615312, 77.6443048]).addTo(map)
-          .bindPopup('HasGeek House')
-          .openPopup();
-      });
-       
-    </script>
+    <script src="js/main.js"></script>
 
     <script>window.twttr = (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0], t = window.twttr || {};
