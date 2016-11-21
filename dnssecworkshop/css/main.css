@@ -11,7 +11,7 @@ body {
 margin:0;
 font-family: "Open Sans","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Arial,sans-serif;
 font-size: 24px;
-line-height: 39px;
+line-height: 1.4;
 color: #333;
 }
 
@@ -141,7 +141,7 @@ header{
 }
 
 .ticketing {
-  padding: 20px 0;
+  padding: 0 0 50px;
   max-width: 900px;
 }
 
@@ -296,4 +296,30 @@ footer .hasgeek-logo {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+#boxoffice-widget .boxoffice-button-action {    
+  background-color: #E05F26;    
+  border-color:  #B94C1D;   
+  color: #fff;    
+}   
+#boxoffice-widget .boxoffice-button-info {    
+  background-color: #5BC0DE;    
+  border-color: #2A9CBE;    
+  color: #fff;    
+}   
+#boxoffice-widget .payment-stages-bg {    
+  background-color: rgb(44, 182, 115);    
+}   
+#boxoffice-widget .progress-indicator>li {    
+  color: #fff;    
+}   
+#boxoffice-widget .category-heading {   
+  background-color: #e2be74;    
+  border-bottom: 3px solid #c9a866;   
+  color: rgba(0,0,0,0.6);  
+  line-height: 1.1;  
+}   
+#boxoffice-widget .category-heading:after {   
+  border-color: #e2be74 #fff #e2be74 #e2be74;    
 }
