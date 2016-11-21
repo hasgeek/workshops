@@ -49,9 +49,10 @@ header{
   margin: 0px;
 }
 
-.header .date, .header .venue, .header .price {
+.header .date, .header .venue-text, .header .price {
   font-size: 30px;
-  margin: 15px 0 0;
+  margin: 10px 0 0;
+  padding: 0;
 }
 
 .header a {
@@ -69,8 +70,11 @@ header{
   margin: 24px 0 0;
 }
 
-.buy-ticket:hover {
+.buy-ticket:hover,
+.buy-ticket:active, 
+.buy-ticket:focus {
   background-color: #d0580d;
+  border-color: #bb4e0a;
 }
 /* WORKSHOP DETAILS
  */
