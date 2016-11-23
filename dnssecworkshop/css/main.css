@@ -104,15 +104,11 @@ header{
   padding: 0;
 }
 
-.workshop-details .course-content div ul li{
+.workshop-details .section div ul li{
   list-style-type: square; 
-  font-size: 24px;
-  font-weight: bold;
 }
 
-.workshop-details.course-content div ul li ul li {
-  font-size: 24px;
-  font-weight: normal;
+.workshop-details .section div ul li ul li {
   list-style-type: square; 
   margin-left: 39px;
 }
