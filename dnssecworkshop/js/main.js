@@ -65,7 +65,11 @@ $(document).ready(function() {
       itemCollection: '8d3d8842-ad7a-11e6-9dd6-99b5cec2b75f', 
       paymentDesc: 'HasGeek'    
     });
-    $(".header .price").html('<i class="fa fa-inr"></i>' + $("#dns-worksop-ticket .ticket-price").text());
+    setTimeout(function() { 
+      if ($("#dns-worksop-ticket .ticket-price").length > 0) {
+        $(".header .price").html('<i class="fa fa-inr"></i>' + $("#dns-worksop-ticket .ticket-price").text());
+      }
+    }, 10000);
   }).fail(function(response) {
     var error_msg;
     if (response.readyState === 4) {
