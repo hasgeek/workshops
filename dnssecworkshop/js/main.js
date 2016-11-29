@@ -64,8 +64,9 @@ $(document).ready(function() {
       org: 'hasgeek',   
       itemCollection: '8d3d8842-ad7a-11e6-9dd6-99b5cec2b75f', 
       paymentDesc: 'HasGeek'    
-    });   
-  }).fail(function(response) {    
+    });
+    $(".header .price").html('<i class="fa fa-inr"></i>' + $("#dns-worksop-ticket .ticket-price").text());
+  }).fail(function(response) {
     var error_msg;
     if (response.readyState === 4) {
       error_msg = "Server error, please try again later";
