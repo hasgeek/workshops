@@ -62,14 +62,9 @@ $(document).ready(function() {
     document.getElementsByTagName('body')[0].appendChild(boxofficeScript);    
     window.Boxoffice.init({   
       org: 'hasgeek',   
-      itemCollection: '8d3d8842-ad7a-11e6-9dd6-99b5cec2b75f', 
+      itemCollection: '9709608f-d65f-11e6-be55-e740d69eb468', 
       paymentDesc: 'HasGeek'    
     });
-    setTimeout(function() { 
-      if ($("#dns-worksop-ticket .ticket-price").length > 0) {
-        $(".header .price").html('<i class="fa fa-inr"></i>' + $("#dns-worksop-ticket .ticket-price").text());
-      }
-    }, 10000);
   }).fail(function(response) {
     var error_msg;
     if (response.readyState === 4) {
