@@ -52,33 +52,33 @@ $(document).ready(function() {
   });
 
   //Boxoffice tickets
-  // var boxofficeUrl = "https://boxoffice.hasgeek.com";  
-  // $.get({   
-  //   url: boxofficeUrl+"/api/1/boxoffice.js",
-  //   crossDomain: true   
-  // }).done(function(data) {    
-  //   var boxofficeScript = document.createElement('script');   
-  //   boxofficeScript.innerHTML = data.script;    
-  //   document.getElementsByTagName('body')[0].appendChild(boxofficeScript);    
-  //   window.Boxoffice.init({   
-  //     org: 'hasgeek',   
-  //     itemCollection: '9709608f-d65f-11e6-be55-e740d69eb468', 
-  //     paymentDesc: 'HasGeek'    
-  //   });
-  // }).fail(function(response) {
-  //   var error_msg;
-  //   if (response.readyState === 4) {
-  //     error_msg = "Server error, please try again later";
-  //   }
-  //   else if (response.readyState === 0) {
-  //     if(!navigator.onLine) {
-  //       error_msg = "Unable to connect. There is no network!";
-  //     }
-  //     else {
-  //       error_msg = "<p>Unable to connect. If you are behind a firewall or using any script blocking extension (like Privacy Badger).<p></p> Please ensure your browser can load boxoffice.hasgeek.com, api.razorpay.com and checkout.razorpay.com</p>";
-  //     }
-  //   }
-  //   $('#boxoffice-widget p').html(error_msg);
-  // });
+  var boxofficeUrl = "https://boxoffice.hasgeek.com";  
+  $.get({   
+    url: boxofficeUrl+"/api/1/boxoffice.js",
+    crossDomain: true   
+  }).done(function(data) {    
+    var boxofficeScript = document.createElement('script');   
+    boxofficeScript.innerHTML = data.script;    
+    document.getElementsByTagName('body')[0].appendChild(boxofficeScript);    
+    window.Boxoffice.init({   
+      org: 'hasgeek',   
+      itemCollection: '18e98a2e-f8cd-11e6-9dcf-01dcca253c76', 
+      paymentDesc: 'HasGeek'    
+    });
+  }).fail(function(response) {
+    var error_msg;
+    if (response.readyState === 4) {
+      error_msg = "Server error, please try again later";
+    }
+    else if (response.readyState === 0) {
+      if(!navigator.onLine) {
+        error_msg = "Unable to connect. There is no network!";
+      }
+      else {
+        error_msg = "<p>Unable to connect. If you are behind a firewall or using any script blocking extension (like Privacy Badger).<p></p> Please ensure your browser can load boxoffice.hasgeek.com, api.razorpay.com and checkout.razorpay.com</p>";
+      }
+    }
+    $('#boxoffice-widget p').html(error_msg);
+  });
 
 });
