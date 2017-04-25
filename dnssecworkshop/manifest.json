@@ -3,8 +3,8 @@
   "short_name": "DNSEC Workshop",
   "start_url": "/",
   "display": "standalone",
-  "gcm_sender_id": "482941778795"
-  "theme_color": "#fff",
+  "gcm_sender_id": "482941778795",
+  "theme_color": "#FFFFFF",
   "background_color": "#FAFAFA",
   "icons": [
     {
