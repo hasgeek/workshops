@@ -1,0 +1,16 @@
+{
+  "name": "DNSEC Workshop",
+  "short_name": "DNSEC Workshop",
+  "start_url": "/",
+  "display": "standalone",
+  "gcm_sender_id": "482941778795"
+  "theme_color": "#fff",
+  "background_color": "#FAFAFA",
+  "icons": [
+    {
+      "src": "images/hg-logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

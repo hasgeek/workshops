@@ -39,6 +39,10 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <link rel="manifest" href="/manifest.json">
+    <!-- onesignal web push -->
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
   </head>
   <body>
     <div id="fb-root"></div>
@@ -290,6 +294,19 @@
       };
 
       return t;
-      }(document, "script", "twitter-wjs"));</script>
+      }(document, "script", "twitter-wjs"));
+    </script>
+
+    <script>
+      var OneSignal = window.OneSignal || [];
+      OneSignal.push(["init", {
+        appId: "96d7bb76-b5ff-4772-8767-227ab21eb68a",
+        autoRegister: false,
+        persistNotification: false,
+        notifyButton: {
+          enable: true /* Set to false to hide */
+        }
+      }]);
+    </script>
   </body>
 </html>
