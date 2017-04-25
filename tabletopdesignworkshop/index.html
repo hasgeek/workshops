@@ -28,10 +28,10 @@
     <link rel="stylesheet" href="css/main.css">  
 
     <!-- Leaflet CSS file -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.6.3/leaflet.min.css" />
+    <link rel="stylesheet" href="css/leaflet.min.css" />
 
     <!-- Font Awesome CSS file for social buttons-->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,6 +39,15 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="manifest" href="/manifest.json">
+    <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Tabletop design workshop">
+    <link rel="apple-touch-icon" href="/images/hg-logo-152x152.png">
+    <!-- Tile Icon for Windows -->
+    <meta name="msapplication-TileImage" content="/images/hg-logo-144x144.png">
+    <meta name="msapplication-TileColor" content="#FAFAFA">
   </head>
   <body>
     <div id="fb-root"></div>
@@ -140,7 +149,7 @@
         <h2 class="text-left heading">About the instructor</h2>
         <div class="row">
           <div class="col-sm-2 col-xs-12">
-            <img src="https://images.hasgeek.com/embed/file/a439cbdb833642478c1e77be76144a87" class="instructor-image">
+            <img src="https://imgee.s3.amazonaws.com/imgee/a439cbdb833642478c1e77be76144a87.png" class="instructor-image">
           </div>
           <div class="col-sm-10 col-xs-12">
             <h3 class="instructor">Veethika Mishra</h3>
@@ -186,20 +195,20 @@
     <!--Footer-->
     <footer>
       <div class="logo-wrapper">
-        <img src="https://hasgeek.com/static/img/hg-banner.png" class="hasgeek-logo" alt="HasGeek">
+        <img src="images/hg-logo-192x192.png" class="hasgeek-logo" alt="HasGeek">
       </div>
       <div class="about">
         <p><a href="https://hasgeek.com" target="_blank">HasGeek</a> creates discussion spaces for geeks. Come to our events to meet like-minded people, learn new things and discover new opportunities. We operate <a href="https://hasjob.co/" target="_blank">Hasjob</a>, hang out on a <a href="https://friends.hasgeek.com/" target="_blank">Slack channel</a>, and publish our code. Our activities reach thousands of developers every month. <a href="https://talkfunnel.com/" target="_blank">Speak at our events</a>, or <a href="http://eepurl.com/duGmH" target="_blank">sign up to be notified</a> when we do one. Watch videos from past events on <a href="https://hasgeek.tv/" target="_blank">HasGeek TV</a>.</p>
       </div> 
     </footer>
     <!-- necessary for HasGeek networkbar -->
-    <script src="https://api.hasgeek.com/1/networkbar/networkbar.js"></script>
+    <script src="js/networkbar.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <!-- necessary for loading maps -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.6.3/leaflet.js"></script>
+    <script src="js/leaflet-0.6.3.js"></script>
     <script src="js/main.js"></script>
 
     <script>window.twttr = (function(d, s, id) {
@@ -216,6 +225,14 @@
       };
 
       return t;
-      }(document, "script", "twitter-wjs"));</script>
+      }(document, "script", "twitter-wjs"));
+    </script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js').then(function() { 
+          console.log("Service Worker Registered"); 
+        });
+      }
+    </script>
   </body>
 </html>

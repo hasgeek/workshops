@@ -1,0 +1,32 @@
+{
+  "name": "tabletopdesignworkshop",
+  "version": "1.0.0",
+  "description": "Table top design workshop by HasGeek",
+  "main": "main.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "path": "^0.12.7",
+    "sw-precache": "^5.1.0",
+    "sw-toolbox": "^3.6.0"
+  },
+  "devDependencies": {
+    "sw-precache": "^5.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasgeek/workshops.git"
+  },
+  "keywords": [
+    "HasGeek",
+    "workshops"
+  ],
+  "author": "HasGeek",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hasgeek/workshops/issues"
+  },
+  "homepage": "https://github.com/hasgeek/workshops#readme"
+}

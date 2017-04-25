@@ -1,0 +1,16 @@
+{
+  "name": "Tabletop design workshop",
+  "short_name": "Tabletop design workshop",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#FAFAFA",
+  "background_color": "#FAFAFA",
+  "icons": [
+    {
+      "src": "img/hg-logo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
+  
