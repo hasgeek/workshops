@@ -73,11 +73,11 @@
           <br>
           <br>
           In 2017 we want to explore how we can do the same for game development.</p>
-          <div>
-            <p>To receive updates and information about tickets, speakers, schedule and more</p>
-            <button class="btn btn-primary" id="subscribe" onclick="window._izq.push(['triggerPrompt']);">Subscribe</button>
-            <button class="btn btn-primary hide" id="unsubscribe" onclick='_izq.push(["updateSubscription","unsubscribe"]);'>Unsubscribe</button>
-          </div>
+      </div>
+      <div>
+        <p>To receive updates and information about tickets, speakers, schedule and more</p>
+        <button class="btn btn-primary" id="subscribe" onclick="window._izq.push(['triggerPrompt']);">Subscribe</button>
+        <button class="btn btn-primary hide" id="unsubscribe" onclick='_izq.push(["updateSubscription","unsubscribe"]);'>Unsubscribe</button>
       </div>
 
       <!-- Why attend? -->
@@ -224,6 +224,10 @@
     <script>
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js').then(function() {
+          console.log("Service Worker Registered"); 
+        });
+
+        navigator.serviceWorker.ready.then(function(serviceWorkerRegistration) {
           serviceWorkerRegistration.pushManager.getSubscription().then(
             function(pushSubscription) {
               console.log("pushSubscription", pushSubscription);
@@ -235,7 +239,6 @@
               }
             }
           );
-          console.log("Service Worker Registered"); 
         });
       }
     </script>
